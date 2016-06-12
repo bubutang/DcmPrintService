@@ -1,0 +1,16 @@
+(0008,0016) UI [1.2.840.10008.5.1.1.4]                          #    22, SOPClassUID
+(0008,0018) UI [1.3.6.1.4.1.30071.8.57185446316643.51714292225) #    54, SOPInstanceUID
+(2020,0010) US 1                                                #     2, ImageBoxPosition
+(2020,0020) CS [NORMAL]                                         #     6, Polarity
+(2020,0030) DS [500]                                            #     4, RequestedImageSize
+(2020,0110) SQ Basic Grayscale Image Sequence
+  Item:
+    > (0028,0002) US 1                                          #     2, SamplesPerPixel
+    > (0028,0004) CS [MONOCHROME2]                              #    12, PhotometricInterpretation
+    > (0028,0010) US 512                                        #     2, Rows
+    > (0028,0011) US 512                                        #     2, Columns
+    > (0028,0100) US 8                                          #     2, BitsAllocated
+    > (0028,0101) US 8                                          #     2, BitsStored
+    > (0028,0102) US 7                                          #     2, HighBit
+    > (0028,0103) US 0                                          #     2, PixelRepresentation
+    > (7fe0,0010) OW <skipping large element>                   #262144, PixelData

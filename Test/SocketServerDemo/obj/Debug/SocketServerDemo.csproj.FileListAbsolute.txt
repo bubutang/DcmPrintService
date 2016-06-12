@@ -1,0 +1,5 @@
+D:\Personal Project\DICOM\fo-dicom-2.0\fo-dicom-2.0\SocketServerDemo\bin\Debug\SocketServerDemo.exe.config
+D:\Personal Project\DICOM\fo-dicom-2.0\fo-dicom-2.0\SocketServerDemo\bin\Debug\SocketServerDemo.exe
+D:\Personal Project\DICOM\fo-dicom-2.0\fo-dicom-2.0\SocketServerDemo\bin\Debug\SocketServerDemo.pdb
+D:\Personal Project\DICOM\fo-dicom-2.0\fo-dicom-2.0\SocketServerDemo\obj\Debug\SocketServerDemo.exe
+D:\Personal Project\DICOM\fo-dicom-2.0\fo-dicom-2.0\SocketServerDemo\obj\Debug\SocketServerDemo.pdb

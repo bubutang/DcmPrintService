@@ -1,0 +1,2170 @@
+15:07:57, Starting PRINT Service
+15:07:57, INFO, OpenAssociation, Calling Ap. Title: local           
+15:07:57, INFO, OpenAssociation, Called Ap. Title: PRINTSCP        
+15:07:58, Connected to: 127.0.0.1:8000
+15:07:58, INFO, MaxSubLength::Size, Length=8, MaxSubLength.MaximumLength=16384
+15:07:58, INFO, ImpClass::Size, Length=34, "1.2.826.0.1.3680043.2.1396.999"
+15:07:58, INFO, ImpVersion::Size, Length=15, "CharruaSoft"
+15:07:58, INFO, UserInformation::Size, Length=57
+15:07:58, INFO, AAssociateRQ::Write, CalledApTitle: PRINTSCP        
+15:07:58, INFO, AAssociateRQ::Write, CallingApTitle: local           
+15:08:02, Item Type: 2
+15:08:02, Association Accept::ReadDynamic
+15:08:02, INFO, AAssociateAC::ReadDynamic, CalledApTitle: PRINTSCP        
+15:08:02, INFO, AAssociateAC::ReadDynamic, CallingApTitle: local           
+15:08:02, INFO, UserInformation::ReadDynamic, Count=49
+15:08:02, INFO, MaxSubLength::ReadDynamic, Count=41, MaxSubLength.MaximumLength=16384
+15:08:02, INFO, ImpClass::ReadDynamic, Count=18, "1.3.6.1.4.1.30071.8"
+15:08:02, INFO, ImpVersion::ReadDynamic, Count=0, "fo-dicom 2.0.2"
+15:08:02, INFO, UserInformation::Size, Length=49
+15:08:02, Presentation Context Accept ID: 1, Transfer Syntax: 1.2.840.10008.1.2
+15:08:02, local >> PRINTSCP
+15:08:02, (0000,0000),  4, UL, Group Length: 68
+15:08:02, (0000,0002), 22, UI, Affected SOP Class UID: 1.2.840.10008.5.1.1.1 (Basic Film Session SOP Class) 
+15:08:02, (0000,0100),  2, US, Command Field: 320
+15:08:02, (0000,0110),  2, US, Message ID: 3
+15:08:02, (0000,0800),  2, US, Data Set Type: 258
+15:08:02, (0000,1000),  0, UI, Affected SOP Instance UID: 
+15:08:02, 
+15:08:02, local >> PRINTSCP
+15:08:02, (2000,0010),  2, IS, Number of Copies: 1 
+15:08:02, (2000,0020),  4, CS, Print Priority: MED 
+15:08:02, (2000,0030),  0, CS, Medium Type: 
+15:08:02, (2000,0040),  8, CS, Film Destination: MAGAZINE
+15:08:02, 
+15:08:02, local << PRINTSCP
+15:08:02, (0000,0000),  4, UL, Group Length: 138
+15:08:02, (0000,0002), 22, UI, Affected SOP Class UID: 1.2.840.10008.5.1.1.1 (Basic Film Session SOP Class) 
+15:08:02, (0000,0100),  2, US, Command Field: 33088
+15:08:02, (0000,0120),  2, US, Message ID Being Responded To: 3
+15:08:02, (0000,0800),  2, US, Data Set Type: 257
+15:08:02, (0000,0900),  2, US, Status: 0
+15:08:02, (0000,0902),  0, LO, Error Comment: 
+15:08:02, (0000,1000), 52, UI, Affected SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159200821465678
+15:08:02, 
+15:08:02, Create Film Session: OK!
+15:08:02, local >> PRINTSCP
+15:08:02, (0000,0000),  4, UL, Group Length: 68
+15:08:02, (0000,0002), 22, UI, Affected SOP Class UID: 1.2.840.10008.5.1.1.2 (Basic Film Box SOP Class) 
+15:08:02, (0000,0100),  2, US, Command Field: 320
+15:08:02, (0000,0110),  2, US, Message ID: 5
+15:08:02, (0000,0800),  2, US, Data Set Type: 258
+15:08:02, (0000,1000),  0, UI, Affected SOP Instance UID: 
+15:08:02, 
+15:08:02, local >> PRINTSCP
+15:08:02, (2010,0010), 12, ST, Image Display Format: STANDARD\1,1
+15:08:02, (2010,0040),  8, CS, Film Orientation: PORTRAIT
+15:08:02, (2010,0050), 10, CS, Film Size ID: 14INX17IN 
+15:08:02, (2010,0060),  6, CS, Magnification Type: CUBIC 
+15:08:02, (2010,0150),  0, ST, Configuration Information: 
+15:08:02, (2010,0500), -1, SQ, Referenced Film Session Sequence: 
+15:08:02, (FFFE,E000), -1, DL, Item: 
+15:08:02, (0008,1150), 22, UI, Referenced SOP Class UID: 1.2.840.10008.5.1.1.1 (Basic Film Session SOP Class) 
+15:08:02, (0008,1155), 52, UI, Referenced SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159200821465678
+15:08:02, (FFFE,E00D),  0, DL, Item Delimitation Item: 
+15:08:02, (FFFE,E0DD),  0, DL, Sequence Delimitation Item: 
+15:08:02, 
+15:08:02, local << PRINTSCP
+15:08:02, (0000,0000),  4, UL, Group Length: 138
+15:08:02, (0000,0002), 22, UI, Affected SOP Class UID: 1.2.840.10008.5.1.1.2 (Basic Film Box SOP Class) 
+15:08:02, (0000,0100),  2, US, Command Field: 33088
+15:08:02, (0000,0120),  2, US, Message ID Being Responded To: 5
+15:08:02, (0000,0800),  2, US, Data Set Type: 514
+15:08:02, (0000,0900),  2, US, Status: 0
+15:08:02, (0000,0902),  0, LO, Error Comment: 
+15:08:02, (0000,1000), 52, UI, Affected SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159200823055769
+15:08:02, 
+15:08:02, local << PRINTSCP
+15:08:02, (0008,0016), 22, UI, SOP Class UID: 1.2.840.10008.5.1.1.2 (Basic Film Box SOP Class) 
+15:08:02, (0008,0018), 52, UI, SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159200823055769
+15:08:02, (2010,0010), 12, ST, Image Display Format: STANDARD\1,1
+15:08:02, (2010,0040),  8, CS, Film Orientation: PORTRAIT
+15:08:02, (2010,0050), 10, CS, Film Size ID: 14INX17IN 
+15:08:02, (2010,0060),  6, CS, Magnification Type: CUBIC 
+15:08:02, (2010,0100),  6, CS, Border Density: BLACK 
+15:08:02, (2010,0110),  6, CS, Empty Image Density: BLACK 
+15:08:02, (2010,0120),  2, US, Min Density: 0
+15:08:02, (2010,0130),  2, US, Max Density: 0
+15:08:02, (2010,0140),  2, CS, Trim: NO
+15:08:02, (2010,0150),  0, ST, Configuration Information: 
+15:08:02, (2010,0500), -1, SQ, Referenced Film Session Sequence: 
+15:08:02, (FFFE,E000), -1, DL, Item: 
+15:08:02, (0008,1150), 22, UI, Referenced SOP Class UID: 1.2.840.10008.5.1.1.1 (Basic Film Session SOP Class) 
+15:08:02, (0008,1155), 52, UI, Referenced SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159200821465678
+15:08:02, (FFFE,E00D),  0, DL, Item Delimitation Item: 
+15:08:02, (FFFE,E0DD),  0, DL, Sequence Delimitation Item: 
+15:08:02, (2010,0510), -1, SQ, Referenced Image Box Sequence: 
+15:08:02, (FFFE,E000), -1, DL, Item: 
+15:08:02, (0008,1150), 22, UI, Referenced SOP Class UID: 1.2.840.10008.5.1.1.4 (Basic Grayscale Image Box SOP Class) 
+15:08:02, (0008,1155), 54, UI, Referenced SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159200823055769.1
+15:08:02, (FFFE,E00D),  0, DL, Item Delimitation Item: 
+15:08:02, (FFFE,E0DD),  0, DL, Sequence Delimitation Item: 
+15:08:02, (2020,0050),  8, CS, Requested Resolution ID: STANDARD
+15:08:02, 
+15:08:02, Create Film Box: OK!
+15:08:02, local >> PRINTSCP
+15:08:02, (0000,0000),  4, UL, Group Length: 122
+15:08:02, (0000,0003), 22, UI, Requested SOP Class UID: 1.2.840.10008.5.1.1.4 (Basic Grayscale Image Box SOP Class) 
+15:08:02, (0000,0100),  2, US, Command Field: 288
+15:08:02, (0000,0110),  2, US, Message ID: 7
+15:08:02, (0000,0800),  2, US, Data Set Type: 258
+15:08:02, (0000,1001), 54, UI, Requested SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159200823055769.1
+15:08:02, 
+15:08:02, local >> PRINTSCP
+15:08:02, (2020,0010),  2, US, Image Position: 1
+15:08:02, (2020,0020),  6, CS, Polarity: NORMAL
+15:08:02, (2020,0030),  4, DS, Requested Image Size: 500 
+15:08:02, (2020,0110), -1, SQ, Basic Grayscale Image Sequence: 
+15:08:02, (FFFE,E000), -1, DL, Item: 
+15:08:02, (0028,0002),  2, US, Samples per Pixel: 1
+15:08:02, (0028,0004), 12, CS, Photometric Interpretation: MONOCHROME2 
+15:08:02, (0028,0010),  2, US, Rows: 512
+15:08:02, (0028,0011),  2, US, Columns: 512
+15:08:02, (0028,0100),  2, US, Bits Allocated: 8
+15:08:02, (0028,0101),  2, US, Bits Stored: 8
+15:08:02, (0028,0102),  2, US, High Bit: 7
+15:08:02, (0028,0103),  2, US, Pixel Representation: 0
+15:08:02, (7FE0,0010), 262144, OW, Pixel Data: 
+15:08:02, (FFFE,E00D),  0, DL, Item Delimitation Item: 
+15:08:02, (FFFE,E0DD),  0, DL, Sequence Delimitation Item: 
+15:08:02, 
+15:08:02, local << PRINTSCP
+15:08:02, (0000,0000),  4, UL, Group Length: 140
+15:08:02, (0000,0002), 22, UI, Affected SOP Class UID: 1.2.840.10008.5.1.1.4 (Basic Grayscale Image Box SOP Class) 
+15:08:02, (0000,0100),  2, US, Command Field: 33056
+15:08:02, (0000,0120),  2, US, Message ID Being Responded To: 7
+15:08:02, (0000,0800),  2, US, Data Set Type: 257
+15:08:02, (0000,0900),  2, US, Status: 0
+15:08:02, (0000,0902),  0, LO, Error Comment: 
+15:08:02, (0000,1000), 54, UI, Affected SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159200823055769.1
+15:08:02, 
+15:08:02, Set Images OK
+15:08:02, local >> PRINTSCP
+15:08:02, (0000,0000),  4, UL, Group Length: 130
+15:08:02, (0000,0003), 22, UI, Requested SOP Class UID: 1.2.840.10008.5.1.1.2 (Basic Film Box SOP Class) 
+15:08:02, (0000,0100),  2, US, Command Field: 304
+15:08:02, (0000,0110),  2, US, Message ID: 9
+15:08:02, (0000,0800),  2, US, Data Set Type: 257
+15:08:02, (0000,1001), 52, UI, Requested SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159200823055769
+15:08:02, (0000,1008),  2, US, Action Type ID: 1
+15:08:02, 
+15:08:17, local << PRINTSCP
+15:08:17, (0000,0000),  4, UL, Group Length: 138
+15:08:17, (0000,0002), 22, UI, Affected SOP Class UID: 1.2.840.10008.5.1.1.2 (Basic Film Box SOP Class) 
+15:08:17, (0000,0100),  2, US, Command Field: 33072
+15:08:17, (0000,0120),  2, US, Message ID Being Responded To: 9
+15:08:17, (0000,0800),  2, US, Data Set Type: 514
+15:08:17, (0000,0900),  2, US, Status: 0
+15:08:17, (0000,0902),  0, LO, Error Comment: 
+15:08:17, (0000,1000), 52, UI, Affected SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159200824455849
+15:08:17, 
+15:08:17, local << PRINTSCP
+15:08:17, (2100,0500), -1, SQ,  (RET): 
+15:08:17, (FFFE,E000), -1, DL, Item: 
+15:08:17, (0008,1150), 22, UI, Referenced SOP Class UID: 1.2.840.10008.5.1.1.14 (Print Job SOP Class) 
+15:08:17, (FFFE,E00D),  0, DL, Item Delimitation Item: 
+15:08:17, (FFFE,E000), -1, DL, Item: 
+15:08:17, (0008,1155), 52, UI, Referenced SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159200824455849
+15:08:17, (FFFE,E00D),  0, DL, Item Delimitation Item: 
+15:08:17, (FFFE,E0DD),  0, DL, Sequence Delimitation Item: 
+15:08:17, 
+15:08:17, FilmBox Action: OK!
+15:08:17, local >> PRINTSCP
+15:08:17, (0000,0000),  4, UL, Group Length: 120
+15:08:17, (0000,0003), 22, UI, Requested SOP Class UID: 1.2.840.10008.5.1.1.1 (Basic Film Session SOP Class) 
+15:08:17, (0000,0100),  2, US, Command Field: 336
+15:08:17, (0000,0110),  2, US, Message ID: 11
+15:08:17, (0000,0800),  2, US, Data Set Type: 257
+15:08:17, (0000,1001), 52, UI, Requested SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159200821465678
+15:08:17, 
+15:08:18, local << PRINTSCP
+15:08:18, (0000,0000),  4, UL, Group Length: 78
+15:08:18, (0000,0002), 22, UI, Affected SOP Class UID: 1.2.840.10008.5.1.1.1 (Basic Film Session SOP Class) 
+15:08:18, (0000,0100),  2, US, Command Field: 33104
+15:08:18, (0000,0120),  2, US, Message ID Being Responded To: 11
+15:08:18, (0000,0800),  2, US, Data Set Type: 257
+15:08:18, (0000,0900),  2, US, Status: 0
+15:08:18, (0000,0902),  0, LO, Error Comment: 
+15:08:18, 
+15:08:18, FilmSession Delete: OK!
+15:08:21, PRINT OK
+15:10:00, Starting PRINT Service
+15:10:00, INFO, OpenAssociation, Calling Ap. Title: local           
+15:10:00, INFO, OpenAssociation, Called Ap. Title: PRINTSCP        
+15:10:00, Connected to: 127.0.0.1:8000
+15:10:00, INFO, MaxSubLength::Size, Length=8, MaxSubLength.MaximumLength=16384
+15:10:00, INFO, ImpClass::Size, Length=34, "1.2.826.0.1.3680043.2.1396.999"
+15:10:00, INFO, ImpVersion::Size, Length=15, "CharruaSoft"
+15:10:00, INFO, UserInformation::Size, Length=57
+15:10:00, INFO, AAssociateRQ::Write, CalledApTitle: PRINTSCP        
+15:10:00, INFO, AAssociateRQ::Write, CallingApTitle: local           
+15:10:02, Item Type: 2
+15:10:02, Association Accept::ReadDynamic
+15:10:02, INFO, AAssociateAC::ReadDynamic, CalledApTitle: PRINTSCP        
+15:10:02, INFO, AAssociateAC::ReadDynamic, CallingApTitle: local           
+15:10:02, INFO, UserInformation::ReadDynamic, Count=49
+15:10:02, INFO, MaxSubLength::ReadDynamic, Count=41, MaxSubLength.MaximumLength=16384
+15:10:02, INFO, ImpClass::ReadDynamic, Count=18, "1.3.6.1.4.1.30071.8"
+15:10:02, INFO, ImpVersion::ReadDynamic, Count=0, "fo-dicom 2.0.2"
+15:10:02, INFO, UserInformation::Size, Length=49
+15:10:02, Presentation Context Accept ID: 1, Transfer Syntax: 1.2.840.10008.1.2
+15:10:02, local >> PRINTSCP
+15:10:02, (0000,0000),  4, UL, Group Length: 68
+15:10:02, (0000,0002), 22, UI, Affected SOP Class UID: 1.2.840.10008.5.1.1.1 (Basic Film Session SOP Class) 
+15:10:02, (0000,0100),  2, US, Command Field: 320
+15:10:02, (0000,0110),  2, US, Message ID: 3
+15:10:02, (0000,0800),  2, US, Data Set Type: 258
+15:10:02, (0000,1000),  0, UI, Affected SOP Instance UID: 
+15:10:02, 
+15:10:02, local >> PRINTSCP
+15:10:02, (2000,0010),  2, IS, Number of Copies: 1 
+15:10:02, (2000,0020),  4, CS, Print Priority: MED 
+15:10:02, (2000,0030),  0, CS, Medium Type: 
+15:10:02, (2000,0040),  8, CS, Film Destination: MAGAZINE
+15:10:02, 
+15:10:02, local << PRINTSCP
+15:10:02, (0000,0000),  4, UL, Group Length: 138
+15:10:02, (0000,0002), 22, UI, Affected SOP Class UID: 1.2.840.10008.5.1.1.1 (Basic Film Session SOP Class) 
+15:10:02, (0000,0100),  2, US, Command Field: 33088
+15:10:02, (0000,0120),  2, US, Message ID Being Responded To: 3
+15:10:02, (0000,0800),  2, US, Data Set Type: 257
+15:10:02, (0000,0900),  2, US, Status: 0
+15:10:02, (0000,0902),  0, LO, Error Comment: 
+15:10:02, (0000,1000), 52, UI, Affected SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159202026874623
+15:10:02, 
+15:10:02, Create Film Session: OK!
+15:10:02, local >> PRINTSCP
+15:10:02, (0000,0000),  4, UL, Group Length: 68
+15:10:02, (0000,0002), 22, UI, Affected SOP Class UID: 1.2.840.10008.5.1.1.2 (Basic Film Box SOP Class) 
+15:10:02, (0000,0100),  2, US, Command Field: 320
+15:10:02, (0000,0110),  2, US, Message ID: 5
+15:10:02, (0000,0800),  2, US, Data Set Type: 258
+15:10:02, (0000,1000),  0, UI, Affected SOP Instance UID: 
+15:10:02, 
+15:10:02, local >> PRINTSCP
+15:10:02, (2010,0010), 12, ST, Image Display Format: STANDARD\1,1
+15:10:02, (2010,0040),  8, CS, Film Orientation: PORTRAIT
+15:10:02, (2010,0050), 10, CS, Film Size ID: 14INX17IN 
+15:10:02, (2010,0060),  6, CS, Magnification Type: CUBIC 
+15:10:02, (2010,0150),  0, ST, Configuration Information: 
+15:10:02, (2010,0500), -1, SQ, Referenced Film Session Sequence: 
+15:10:02, (FFFE,E000), -1, DL, Item: 
+15:10:02, (0008,1150), 22, UI, Referenced SOP Class UID: 1.2.840.10008.5.1.1.1 (Basic Film Session SOP Class) 
+15:10:02, (0008,1155), 52, UI, Referenced SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159202026874623
+15:10:02, (FFFE,E00D),  0, DL, Item Delimitation Item: 
+15:10:02, (FFFE,E0DD),  0, DL, Sequence Delimitation Item: 
+15:10:02, 
+15:10:02, local << PRINTSCP
+15:10:02, (0000,0000),  4, UL, Group Length: 138
+15:10:02, (0000,0002), 22, UI, Affected SOP Class UID: 1.2.840.10008.5.1.1.2 (Basic Film Box SOP Class) 
+15:10:02, (0000,0100),  2, US, Command Field: 33088
+15:10:02, (0000,0120),  2, US, Message ID Being Responded To: 5
+15:10:02, (0000,0800),  2, US, Data Set Type: 514
+15:10:02, (0000,0900),  2, US, Status: 0
+15:10:02, (0000,0902),  0, LO, Error Comment: 
+15:10:02, (0000,1000), 52, UI, Affected SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159202027944684
+15:10:02, 
+15:10:02, local << PRINTSCP
+15:10:02, (0008,0016), 22, UI, SOP Class UID: 1.2.840.10008.5.1.1.2 (Basic Film Box SOP Class) 
+15:10:02, (0008,0018), 52, UI, SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159202027944684
+15:10:02, (2010,0010), 12, ST, Image Display Format: STANDARD\1,1
+15:10:02, (2010,0040),  8, CS, Film Orientation: PORTRAIT
+15:10:02, (2010,0050), 10, CS, Film Size ID: 14INX17IN 
+15:10:02, (2010,0060),  6, CS, Magnification Type: CUBIC 
+15:10:02, (2010,0100),  6, CS, Border Density: BLACK 
+15:10:02, (2010,0110),  6, CS, Empty Image Density: BLACK 
+15:10:02, (2010,0120),  2, US, Min Density: 0
+15:10:02, (2010,0130),  2, US, Max Density: 0
+15:10:02, (2010,0140),  2, CS, Trim: NO
+15:10:02, (2010,0150),  0, ST, Configuration Information: 
+15:10:02, (2010,0500), -1, SQ, Referenced Film Session Sequence: 
+15:10:02, (FFFE,E000), -1, DL, Item: 
+15:10:02, (0008,1150), 22, UI, Referenced SOP Class UID: 1.2.840.10008.5.1.1.1 (Basic Film Session SOP Class) 
+15:10:02, (0008,1155), 52, UI, Referenced SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159202026874623
+15:10:02, (FFFE,E00D),  0, DL, Item Delimitation Item: 
+15:10:02, (FFFE,E0DD),  0, DL, Sequence Delimitation Item: 
+15:10:02, (2010,0510), -1, SQ, Referenced Image Box Sequence: 
+15:10:02, (FFFE,E000), -1, DL, Item: 
+15:10:02, (0008,1150), 22, UI, Referenced SOP Class UID: 1.2.840.10008.5.1.1.4 (Basic Grayscale Image Box SOP Class) 
+15:10:02, (0008,1155), 54, UI, Referenced SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159202027944684.1
+15:10:02, (FFFE,E00D),  0, DL, Item Delimitation Item: 
+15:10:02, (FFFE,E0DD),  0, DL, Sequence Delimitation Item: 
+15:10:02, (2020,0050),  8, CS, Requested Resolution ID: STANDARD
+15:10:02, 
+15:10:02, Create Film Box: OK!
+15:10:02, local >> PRINTSCP
+15:10:02, (0000,0000),  4, UL, Group Length: 122
+15:10:02, (0000,0003), 22, UI, Requested SOP Class UID: 1.2.840.10008.5.1.1.4 (Basic Grayscale Image Box SOP Class) 
+15:10:02, (0000,0100),  2, US, Command Field: 288
+15:10:02, (0000,0110),  2, US, Message ID: 7
+15:10:02, (0000,0800),  2, US, Data Set Type: 258
+15:10:02, (0000,1001), 54, UI, Requested SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159202027944684.1
+15:10:02, 
+15:10:02, local >> PRINTSCP
+15:10:02, (2020,0010),  2, US, Image Position: 1
+15:10:02, (2020,0020),  6, CS, Polarity: NORMAL
+15:10:02, (2020,0030),  4, DS, Requested Image Size: 500 
+15:10:02, (2020,0110), -1, SQ, Basic Grayscale Image Sequence: 
+15:10:02, (FFFE,E000), -1, DL, Item: 
+15:10:02, (0028,0002),  2, US, Samples per Pixel: 1
+15:10:02, (0028,0004), 12, CS, Photometric Interpretation: MONOCHROME2 
+15:10:02, (0028,0010),  2, US, Rows: 512
+15:10:02, (0028,0011),  2, US, Columns: 512
+15:10:02, (0028,0100),  2, US, Bits Allocated: 8
+15:10:02, (0028,0101),  2, US, Bits Stored: 8
+15:10:02, (0028,0102),  2, US, High Bit: 7
+15:10:02, (0028,0103),  2, US, Pixel Representation: 0
+15:10:02, (7FE0,0010), 262144, OW, Pixel Data: 
+15:10:02, (FFFE,E00D),  0, DL, Item Delimitation Item: 
+15:10:02, (FFFE,E0DD),  0, DL, Sequence Delimitation Item: 
+15:10:02, 
+15:10:02, local << PRINTSCP
+15:10:02, (0000,0000),  4, UL, Group Length: 140
+15:10:02, (0000,0002), 22, UI, Affected SOP Class UID: 1.2.840.10008.5.1.1.4 (Basic Grayscale Image Box SOP Class) 
+15:10:02, (0000,0100),  2, US, Command Field: 33056
+15:10:02, (0000,0120),  2, US, Message ID Being Responded To: 7
+15:10:02, (0000,0800),  2, US, Data Set Type: 257
+15:10:02, (0000,0900),  2, US, Status: 0
+15:10:02, (0000,0902),  0, LO, Error Comment: 
+15:10:02, (0000,1000), 54, UI, Affected SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159202027944684.1
+15:10:02, 
+15:10:02, Set Images OK
+15:10:02, local >> PRINTSCP
+15:10:02, (0000,0000),  4, UL, Group Length: 130
+15:10:02, (0000,0003), 22, UI, Requested SOP Class UID: 1.2.840.10008.5.1.1.2 (Basic Film Box SOP Class) 
+15:10:02, (0000,0100),  2, US, Command Field: 304
+15:10:02, (0000,0110),  2, US, Message ID: 9
+15:10:02, (0000,0800),  2, US, Data Set Type: 257
+15:10:02, (0000,1001), 52, UI, Requested SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159202027944684
+15:10:02, (0000,1008),  2, US, Action Type ID: 1
+15:10:02, 
+15:10:46, local << PRINTSCP
+15:10:46, (0000,0000),  4, UL, Group Length: 138
+15:10:46, (0000,0002), 22, UI, Affected SOP Class UID: 1.2.840.10008.5.1.1.2 (Basic Film Box SOP Class) 
+15:10:46, (0000,0100),  2, US, Command Field: 33072
+15:10:46, (0000,0120),  2, US, Message ID Being Responded To: 9
+15:10:46, (0000,0800),  2, US, Data Set Type: 514
+15:10:46, (0000,0900),  2, US, Status: 0
+15:10:46, (0000,0902),  0, LO, Error Comment: 
+15:10:46, (0000,1000), 52, UI, Affected SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159202029344765
+15:10:46, 
+15:10:46, local << PRINTSCP
+15:10:46, (2100,0500), -1, SQ,  (RET): 
+15:10:46, (FFFE,E000), -1, DL, Item: 
+15:10:46, (0008,1150), 22, UI, Referenced SOP Class UID: 1.2.840.10008.5.1.1.14 (Print Job SOP Class) 
+15:10:46, (FFFE,E00D),  0, DL, Item Delimitation Item: 
+15:10:46, (FFFE,E000), -1, DL, Item: 
+15:10:46, (0008,1155), 52, UI, Referenced SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159202029344765
+15:10:46, (FFFE,E00D),  0, DL, Item Delimitation Item: 
+15:10:46, (FFFE,E0DD),  0, DL, Sequence Delimitation Item: 
+15:10:46, 
+15:10:46, FilmBox Action: OK!
+15:10:46, local >> PRINTSCP
+15:10:46, (0000,0000),  4, UL, Group Length: 120
+15:10:46, (0000,0003), 22, UI, Requested SOP Class UID: 1.2.840.10008.5.1.1.1 (Basic Film Session SOP Class) 
+15:10:46, (0000,0100),  2, US, Command Field: 336
+15:10:46, (0000,0110),  2, US, Message ID: 11
+15:10:46, (0000,0800),  2, US, Data Set Type: 257
+15:10:46, (0000,1001), 52, UI, Requested SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159202026874623
+15:10:46, 
+15:10:48, local << PRINTSCP
+15:10:48, (0000,0000),  4, UL, Group Length: 78
+15:10:48, (0000,0002), 22, UI, Affected SOP Class UID: 1.2.840.10008.5.1.1.1 (Basic Film Session SOP Class) 
+15:10:48, (0000,0100),  2, US, Command Field: 33104
+15:10:48, (0000,0120),  2, US, Message ID Being Responded To: 11
+15:10:48, (0000,0800),  2, US, Data Set Type: 257
+15:10:48, (0000,0900),  2, US, Status: 0
+15:10:48, (0000,0902),  0, LO, Error Comment: 
+15:10:48, 
+15:10:48, FilmSession Delete: OK!
+15:10:49, PRINT OK
+15:11:34, Starting PRINT Service
+15:11:34, INFO, OpenAssociation, Calling Ap. Title: local           
+15:11:34, INFO, OpenAssociation, Called Ap. Title: PRINTSCP        
+15:11:34, Connected to: 127.0.0.1:8000
+15:11:34, INFO, MaxSubLength::Size, Length=8, MaxSubLength.MaximumLength=16384
+15:11:34, INFO, ImpClass::Size, Length=34, "1.2.826.0.1.3680043.2.1396.999"
+15:11:34, INFO, ImpVersion::Size, Length=15, "CharruaSoft"
+15:11:34, INFO, UserInformation::Size, Length=57
+15:11:34, INFO, AAssociateRQ::Write, CalledApTitle: PRINTSCP        
+15:11:34, INFO, AAssociateRQ::Write, CallingApTitle: local           
+15:11:36, Item Type: 2
+15:11:36, Association Accept::ReadDynamic
+15:11:36, INFO, AAssociateAC::ReadDynamic, CalledApTitle: PRINTSCP        
+15:11:36, INFO, AAssociateAC::ReadDynamic, CallingApTitle: local           
+15:11:36, INFO, UserInformation::ReadDynamic, Count=49
+15:11:36, INFO, MaxSubLength::ReadDynamic, Count=41, MaxSubLength.MaximumLength=16384
+15:11:36, INFO, ImpClass::ReadDynamic, Count=18, "1.3.6.1.4.1.30071.8"
+15:11:36, INFO, ImpVersion::ReadDynamic, Count=0, "fo-dicom 2.0.2"
+15:11:36, INFO, UserInformation::Size, Length=49
+15:11:36, Presentation Context Accept ID: 1, Transfer Syntax: 1.2.840.10008.1.2
+15:11:36, local >> PRINTSCP
+15:11:36, (0000,0000),  4, UL, Group Length: 68
+15:11:36, (0000,0002), 22, UI, Affected SOP Class UID: 1.2.840.10008.5.1.1.1 (Basic Film Session SOP Class) 
+15:11:36, (0000,0100),  2, US, Command Field: 320
+15:11:36, (0000,0110),  2, US, Message ID: 3
+15:11:36, (0000,0800),  2, US, Data Set Type: 258
+15:11:36, (0000,1000),  0, UI, Affected SOP Instance UID: 
+15:11:36, 
+15:11:36, local >> PRINTSCP
+15:11:36, (2000,0010),  2, IS, Number of Copies: 1 
+15:11:36, (2000,0020),  4, CS, Print Priority: MED 
+15:11:36, (2000,0030),  0, CS, Medium Type: 
+15:11:36, (2000,0040),  8, CS, Film Destination: MAGAZINE
+15:11:36, 
+15:11:36, local << PRINTSCP
+15:11:36, (0000,0000),  4, UL, Group Length: 138
+15:11:36, (0000,0002), 22, UI, Affected SOP Class UID: 1.2.840.10008.5.1.1.1 (Basic Film Session SOP Class) 
+15:11:36, (0000,0100),  2, US, Command Field: 33088
+15:11:36, (0000,0120),  2, US, Message ID Being Responded To: 3
+15:11:36, (0000,0800),  2, US, Data Set Type: 257
+15:11:36, (0000,0900),  2, US, Status: 0
+15:11:36, (0000,0902),  0, LO, Error Comment: 
+15:11:36, (0000,1000), 52, UI, Affected SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159202965148289
+15:11:36, 
+15:11:36, Create Film Session: OK!
+15:11:36, local >> PRINTSCP
+15:11:36, (0000,0000),  4, UL, Group Length: 68
+15:11:36, (0000,0002), 22, UI, Affected SOP Class UID: 1.2.840.10008.5.1.1.2 (Basic Film Box SOP Class) 
+15:11:36, (0000,0100),  2, US, Command Field: 320
+15:11:36, (0000,0110),  2, US, Message ID: 5
+15:11:36, (0000,0800),  2, US, Data Set Type: 258
+15:11:36, (0000,1000),  0, UI, Affected SOP Instance UID: 
+15:11:36, 
+15:11:36, local >> PRINTSCP
+15:11:36, (2010,0010), 12, ST, Image Display Format: STANDARD\1,1
+15:11:36, (2010,0040),  8, CS, Film Orientation: PORTRAIT
+15:11:36, (2010,0050), 10, CS, Film Size ID: 14INX17IN 
+15:11:36, (2010,0060),  6, CS, Magnification Type: CUBIC 
+15:11:36, (2010,0150),  0, ST, Configuration Information: 
+15:11:36, (2010,0500), -1, SQ, Referenced Film Session Sequence: 
+15:11:36, (FFFE,E000), -1, DL, Item: 
+15:11:36, (0008,1150), 22, UI, Referenced SOP Class UID: 1.2.840.10008.5.1.1.1 (Basic Film Session SOP Class) 
+15:11:36, (0008,1155), 52, UI, Referenced SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159202965148289
+15:11:36, (FFFE,E00D),  0, DL, Item Delimitation Item: 
+15:11:36, (FFFE,E0DD),  0, DL, Sequence Delimitation Item: 
+15:11:36, 
+15:11:36, local << PRINTSCP
+15:11:36, (0000,0000),  4, UL, Group Length: 138
+15:11:36, (0000,0002), 22, UI, Affected SOP Class UID: 1.2.840.10008.5.1.1.2 (Basic Film Box SOP Class) 
+15:11:36, (0000,0100),  2, US, Command Field: 33088
+15:11:36, (0000,0120),  2, US, Message ID Being Responded To: 5
+15:11:36, (0000,0800),  2, US, Data Set Type: 514
+15:11:36, (0000,0900),  2, US, Status: 0
+15:11:36, (0000,0902),  0, LO, Error Comment: 
+15:11:36, (0000,1000), 52, UI, Affected SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159202966678377
+15:11:36, 
+15:11:36, local << PRINTSCP
+15:11:36, (0008,0016), 22, UI, SOP Class UID: 1.2.840.10008.5.1.1.2 (Basic Film Box SOP Class) 
+15:11:36, (0008,0018), 52, UI, SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159202966678377
+15:11:36, (2010,0010), 12, ST, Image Display Format: STANDARD\1,1
+15:11:36, (2010,0040),  8, CS, Film Orientation: PORTRAIT
+15:11:36, (2010,0050), 10, CS, Film Size ID: 14INX17IN 
+15:11:36, (2010,0060),  6, CS, Magnification Type: CUBIC 
+15:11:36, (2010,0100),  6, CS, Border Density: BLACK 
+15:11:36, (2010,0110),  6, CS, Empty Image Density: BLACK 
+15:11:36, (2010,0120),  2, US, Min Density: 0
+15:11:36, (2010,0130),  2, US, Max Density: 0
+15:11:36, (2010,0140),  2, CS, Trim: NO
+15:11:36, (2010,0150),  0, ST, Configuration Information: 
+15:11:36, (2010,0500), -1, SQ, Referenced Film Session Sequence: 
+15:11:36, (FFFE,E000), -1, DL, Item: 
+15:11:36, (0008,1150), 22, UI, Referenced SOP Class UID: 1.2.840.10008.5.1.1.1 (Basic Film Session SOP Class) 
+15:11:36, (0008,1155), 52, UI, Referenced SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159202965148289
+15:11:36, (FFFE,E00D),  0, DL, Item Delimitation Item: 
+15:11:36, (FFFE,E0DD),  0, DL, Sequence Delimitation Item: 
+15:11:36, (2010,0510), -1, SQ, Referenced Image Box Sequence: 
+15:11:36, (FFFE,E000), -1, DL, Item: 
+15:11:36, (0008,1150), 22, UI, Referenced SOP Class UID: 1.2.840.10008.5.1.1.4 (Basic Grayscale Image Box SOP Class) 
+15:11:36, (0008,1155), 54, UI, Referenced SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159202966678377.1
+15:11:36, (FFFE,E00D),  0, DL, Item Delimitation Item: 
+15:11:36, (FFFE,E0DD),  0, DL, Sequence Delimitation Item: 
+15:11:36, (2020,0050),  8, CS, Requested Resolution ID: STANDARD
+15:11:36, 
+15:11:36, Create Film Box: OK!
+15:11:36, local >> PRINTSCP
+15:11:36, (0000,0000),  4, UL, Group Length: 122
+15:11:36, (0000,0003), 22, UI, Requested SOP Class UID: 1.2.840.10008.5.1.1.4 (Basic Grayscale Image Box SOP Class) 
+15:11:36, (0000,0100),  2, US, Command Field: 288
+15:11:36, (0000,0110),  2, US, Message ID: 7
+15:11:36, (0000,0800),  2, US, Data Set Type: 258
+15:11:36, (0000,1001), 54, UI, Requested SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159202966678377.1
+15:11:36, 
+15:11:36, local >> PRINTSCP
+15:11:36, (2020,0010),  2, US, Image Position: 1
+15:11:36, (2020,0020),  6, CS, Polarity: NORMAL
+15:11:36, (2020,0030),  4, DS, Requested Image Size: 500 
+15:11:36, (2020,0110), -1, SQ, Basic Grayscale Image Sequence: 
+15:11:36, (FFFE,E000), -1, DL, Item: 
+15:11:36, (0028,0002),  2, US, Samples per Pixel: 1
+15:11:36, (0028,0004), 12, CS, Photometric Interpretation: MONOCHROME2 
+15:11:36, (0028,0010),  2, US, Rows: 512
+15:11:36, (0028,0011),  2, US, Columns: 512
+15:11:36, (0028,0100),  2, US, Bits Allocated: 8
+15:11:36, (0028,0101),  2, US, Bits Stored: 8
+15:11:36, (0028,0102),  2, US, High Bit: 7
+15:11:36, (0028,0103),  2, US, Pixel Representation: 0
+15:11:36, (7FE0,0010), 262144, OW, Pixel Data: 
+15:11:36, (FFFE,E00D),  0, DL, Item Delimitation Item: 
+15:11:36, (FFFE,E0DD),  0, DL, Sequence Delimitation Item: 
+15:11:36, 
+15:11:36, local << PRINTSCP
+15:11:36, (0000,0000),  4, UL, Group Length: 140
+15:11:36, (0000,0002), 22, UI, Affected SOP Class UID: 1.2.840.10008.5.1.1.4 (Basic Grayscale Image Box SOP Class) 
+15:11:36, (0000,0100),  2, US, Command Field: 33056
+15:11:36, (0000,0120),  2, US, Message ID Being Responded To: 7
+15:11:36, (0000,0800),  2, US, Data Set Type: 257
+15:11:36, (0000,0900),  2, US, Status: 0
+15:11:36, (0000,0902),  0, LO, Error Comment: 
+15:11:36, (0000,1000), 54, UI, Affected SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159202966678377.1
+15:11:36, 
+15:11:36, Set Images OK
+15:11:36, local >> PRINTSCP
+15:11:36, (0000,0000),  4, UL, Group Length: 130
+15:11:36, (0000,0003), 22, UI, Requested SOP Class UID: 1.2.840.10008.5.1.1.2 (Basic Film Box SOP Class) 
+15:11:36, (0000,0100),  2, US, Command Field: 304
+15:11:36, (0000,0110),  2, US, Message ID: 9
+15:11:36, (0000,0800),  2, US, Data Set Type: 257
+15:11:36, (0000,1001), 52, UI, Requested SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159202966678377
+15:11:36, (0000,1008),  2, US, Action Type ID: 1
+15:11:36, 
+15:11:51, local << PRINTSCP
+15:11:51, (0000,0000),  4, UL, Group Length: 138
+15:11:51, (0000,0002), 22, UI, Affected SOP Class UID: 1.2.840.10008.5.1.1.2 (Basic Film Box SOP Class) 
+15:11:51, (0000,0100),  2, US, Command Field: 33072
+15:11:51, (0000,0120),  2, US, Message ID Being Responded To: 9
+15:11:51, (0000,0800),  2, US, Data Set Type: 514
+15:11:51, (0000,0900),  2, US, Status: 0
+15:11:51, (0000,0902),  0, LO, Error Comment: 
+15:11:51, (0000,1000), 52, UI, Affected SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159202968148461
+15:11:51, 
+15:11:51, local << PRINTSCP
+15:11:51, (2100,0500), -1, SQ,  (RET): 
+15:11:51, (FFFE,E000), -1, DL, Item: 
+15:11:51, (0008,1150), 22, UI, Referenced SOP Class UID: 1.2.840.10008.5.1.1.14 (Print Job SOP Class) 
+15:11:51, (FFFE,E00D),  0, DL, Item Delimitation Item: 
+15:11:51, (FFFE,E000), -1, DL, Item: 
+15:11:51, (0008,1155), 52, UI, Referenced SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159202968148461
+15:11:51, (FFFE,E00D),  0, DL, Item Delimitation Item: 
+15:11:51, (FFFE,E0DD),  0, DL, Sequence Delimitation Item: 
+15:11:51, 
+15:11:51, FilmBox Action: OK!
+15:11:51, local >> PRINTSCP
+15:11:51, (0000,0000),  4, UL, Group Length: 120
+15:11:51, (0000,0003), 22, UI, Requested SOP Class UID: 1.2.840.10008.5.1.1.1 (Basic Film Session SOP Class) 
+15:11:51, (0000,0100),  2, US, Command Field: 336
+15:11:51, (0000,0110),  2, US, Message ID: 11
+15:11:51, (0000,0800),  2, US, Data Set Type: 257
+15:11:51, (0000,1001), 52, UI, Requested SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159202965148289
+15:11:51, 
+15:11:52, local << PRINTSCP
+15:11:52, (0000,0000),  4, UL, Group Length: 78
+15:11:52, (0000,0002), 22, UI, Affected SOP Class UID: 1.2.840.10008.5.1.1.1 (Basic Film Session SOP Class) 
+15:11:52, (0000,0100),  2, US, Command Field: 33104
+15:11:52, (0000,0120),  2, US, Message ID Being Responded To: 11
+15:11:52, (0000,0800),  2, US, Data Set Type: 257
+15:11:52, (0000,0900),  2, US, Status: 0
+15:11:52, (0000,0902),  0, LO, Error Comment: 
+15:11:52, 
+15:11:52, FilmSession Delete: OK!
+15:11:53, PRINT OK
+15:18:19, Starting PRINT Service
+15:18:19, INFO, OpenAssociation, Calling Ap. Title: local           
+15:18:19, INFO, OpenAssociation, Called Ap. Title: PRINTSCP        
+15:18:19, Connected to: 127.0.0.1:8000
+15:18:19, INFO, MaxSubLength::Size, Length=8, MaxSubLength.MaximumLength=16384
+15:18:19, INFO, ImpClass::Size, Length=34, "1.2.826.0.1.3680043.2.1396.999"
+15:18:19, INFO, ImpVersion::Size, Length=15, "CharruaSoft"
+15:18:19, INFO, UserInformation::Size, Length=57
+15:18:19, INFO, AAssociateRQ::Write, CalledApTitle: PRINTSCP        
+15:18:19, INFO, AAssociateRQ::Write, CallingApTitle: local           
+15:18:19, Item Type: 2
+15:18:19, Association Accept::ReadDynamic
+15:18:19, INFO, AAssociateAC::ReadDynamic, CalledApTitle: PRINTSCP        
+15:18:19, INFO, AAssociateAC::ReadDynamic, CallingApTitle: local           
+15:18:19, INFO, UserInformation::ReadDynamic, Count=49
+15:18:19, INFO, MaxSubLength::ReadDynamic, Count=41, MaxSubLength.MaximumLength=16384
+15:18:19, INFO, ImpClass::ReadDynamic, Count=18, "1.3.6.1.4.1.30071.8"
+15:18:19, INFO, ImpVersion::ReadDynamic, Count=0, "fo-dicom 2.0.2"
+15:18:19, INFO, UserInformation::Size, Length=49
+15:18:19, Presentation Context Accept ID: 1, Transfer Syntax: 1.2.840.10008.1.2
+15:18:19, local >> PRINTSCP
+15:18:19, (0000,0000),  4, UL, Group Length: 68
+15:18:19, (0000,0002), 22, UI, Affected SOP Class UID: 1.2.840.10008.5.1.1.1 (Basic Film Session SOP Class) 
+15:18:19, (0000,0100),  2, US, Command Field: 320
+15:18:19, (0000,0110),  2, US, Message ID: 3
+15:18:19, (0000,0800),  2, US, Data Set Type: 258
+15:18:19, (0000,1000),  0, UI, Affected SOP Instance UID: 
+15:18:19, 
+15:18:19, local >> PRINTSCP
+15:18:19, (2000,0010),  2, IS, Number of Copies: 1 
+15:18:19, (2000,0020),  4, CS, Print Priority: MED 
+15:18:19, (2000,0030),  0, CS, Medium Type: 
+15:18:19, (2000,0040),  8, CS, Film Destination: MAGAZINE
+15:18:19, 
+15:18:19, local << PRINTSCP
+15:18:19, (0000,0000),  4, UL, Group Length: 138
+15:18:19, (0000,0002), 22, UI, Affected SOP Class UID: 1.2.840.10008.5.1.1.1 (Basic Film Session SOP Class) 
+15:18:19, (0000,0100),  2, US, Command Field: 33088
+15:18:19, (0000,0120),  2, US, Message ID Being Responded To: 3
+15:18:19, (0000,0800),  2, US, Data Set Type: 257
+15:18:19, (0000,0900),  2, US, Status: 0
+15:18:19, (0000,0902),  0, LO, Error Comment: 
+15:18:19, (0000,1000), 52, UI, Affected SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159206993838717
+15:18:19, 
+15:18:19, Create Film Session: OK!
+15:18:19, local >> PRINTSCP
+15:18:19, (0000,0000),  4, UL, Group Length: 68
+15:18:19, (0000,0002), 22, UI, Affected SOP Class UID: 1.2.840.10008.5.1.1.2 (Basic Film Box SOP Class) 
+15:18:19, (0000,0100),  2, US, Command Field: 320
+15:18:19, (0000,0110),  2, US, Message ID: 5
+15:18:19, (0000,0800),  2, US, Data Set Type: 258
+15:18:19, (0000,1000),  0, UI, Affected SOP Instance UID: 
+15:18:19, 
+15:18:19, local >> PRINTSCP
+15:18:19, (2010,0010), 12, ST, Image Display Format: STANDARD\1,1
+15:18:19, (2010,0040),  8, CS, Film Orientation: PORTRAIT
+15:18:19, (2010,0050), 10, CS, Film Size ID: 14INX17IN 
+15:18:19, (2010,0060),  6, CS, Magnification Type: CUBIC 
+15:18:19, (2010,0150),  0, ST, Configuration Information: 
+15:18:19, (2010,0500), -1, SQ, Referenced Film Session Sequence: 
+15:18:19, (FFFE,E000), -1, DL, Item: 
+15:18:19, (0008,1150), 22, UI, Referenced SOP Class UID: 1.2.840.10008.5.1.1.1 (Basic Film Session SOP Class) 
+15:18:19, (0008,1155), 52, UI, Referenced SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159206993838717
+15:18:19, (FFFE,E00D),  0, DL, Item Delimitation Item: 
+15:18:19, (FFFE,E0DD),  0, DL, Sequence Delimitation Item: 
+15:18:19, 
+15:18:19, local << PRINTSCP
+15:18:19, (0000,0000),  4, UL, Group Length: 138
+15:18:19, (0000,0002), 22, UI, Affected SOP Class UID: 1.2.840.10008.5.1.1.2 (Basic Film Box SOP Class) 
+15:18:19, (0000,0100),  2, US, Command Field: 33088
+15:18:19, (0000,0120),  2, US, Message ID Being Responded To: 5
+15:18:19, (0000,0800),  2, US, Data Set Type: 514
+15:18:19, (0000,0900),  2, US, Status: 0
+15:18:19, (0000,0902),  0, LO, Error Comment: 
+15:18:19, (0000,1000), 52, UI, Affected SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159206995448809
+15:18:19, 
+15:18:19, local << PRINTSCP
+15:18:19, (0008,0016), 22, UI, SOP Class UID: 1.2.840.10008.5.1.1.2 (Basic Film Box SOP Class) 
+15:18:19, (0008,0018), 52, UI, SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159206995448809
+15:18:19, (2010,0010), 12, ST, Image Display Format: STANDARD\1,1
+15:18:19, (2010,0040),  8, CS, Film Orientation: PORTRAIT
+15:18:19, (2010,0050), 10, CS, Film Size ID: 14INX17IN 
+15:18:19, (2010,0060),  6, CS, Magnification Type: CUBIC 
+15:18:19, (2010,0100),  6, CS, Border Density: BLACK 
+15:18:19, (2010,0110),  6, CS, Empty Image Density: BLACK 
+15:18:19, (2010,0120),  2, US, Min Density: 0
+15:18:19, (2010,0130),  2, US, Max Density: 0
+15:18:19, (2010,0140),  2, CS, Trim: NO
+15:18:19, (2010,0150),  0, ST, Configuration Information: 
+15:18:19, (2010,0500), -1, SQ, Referenced Film Session Sequence: 
+15:18:19, (FFFE,E000), -1, DL, Item: 
+15:18:19, (0008,1150), 22, UI, Referenced SOP Class UID: 1.2.840.10008.5.1.1.1 (Basic Film Session SOP Class) 
+15:18:19, (0008,1155), 52, UI, Referenced SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159206993838717
+15:18:19, (FFFE,E00D),  0, DL, Item Delimitation Item: 
+15:18:19, (FFFE,E0DD),  0, DL, Sequence Delimitation Item: 
+15:18:19, (2010,0510), -1, SQ, Referenced Image Box Sequence: 
+15:18:19, (FFFE,E000), -1, DL, Item: 
+15:18:19, (0008,1150), 22, UI, Referenced SOP Class UID: 1.2.840.10008.5.1.1.4 (Basic Grayscale Image Box SOP Class) 
+15:18:19, (0008,1155), 54, UI, Referenced SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159206995448809.1
+15:18:19, (FFFE,E00D),  0, DL, Item Delimitation Item: 
+15:18:19, (FFFE,E0DD),  0, DL, Sequence Delimitation Item: 
+15:18:19, (2020,0050),  8, CS, Requested Resolution ID: STANDARD
+15:18:19, 
+15:18:19, Create Film Box: OK!
+15:18:19, local >> PRINTSCP
+15:18:19, (0000,0000),  4, UL, Group Length: 122
+15:18:19, (0000,0003), 22, UI, Requested SOP Class UID: 1.2.840.10008.5.1.1.4 (Basic Grayscale Image Box SOP Class) 
+15:18:19, (0000,0100),  2, US, Command Field: 288
+15:18:19, (0000,0110),  2, US, Message ID: 7
+15:18:19, (0000,0800),  2, US, Data Set Type: 258
+15:18:19, (0000,1001), 54, UI, Requested SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159206995448809.1
+15:18:19, 
+15:18:19, local >> PRINTSCP
+15:18:19, (2020,0010),  2, US, Image Position: 1
+15:18:19, (2020,0020),  6, CS, Polarity: NORMAL
+15:18:19, (2020,0030),  4, DS, Requested Image Size: 500 
+15:18:19, (2020,0110), -1, SQ, Basic Grayscale Image Sequence: 
+15:18:19, (FFFE,E000), -1, DL, Item: 
+15:18:19, (0028,0002),  2, US, Samples per Pixel: 1
+15:18:19, (0028,0004), 12, CS, Photometric Interpretation: MONOCHROME2 
+15:18:19, (0028,0010),  2, US, Rows: 512
+15:18:19, (0028,0011),  2, US, Columns: 512
+15:18:19, (0028,0100),  2, US, Bits Allocated: 8
+15:18:19, (0028,0101),  2, US, Bits Stored: 8
+15:18:19, (0028,0102),  2, US, High Bit: 7
+15:18:19, (0028,0103),  2, US, Pixel Representation: 0
+15:18:19, (7FE0,0010), 262144, OW, Pixel Data: 
+15:18:19, (FFFE,E00D),  0, DL, Item Delimitation Item: 
+15:18:19, (FFFE,E0DD),  0, DL, Sequence Delimitation Item: 
+15:18:19, 
+15:18:19, local << PRINTSCP
+15:18:19, (0000,0000),  4, UL, Group Length: 140
+15:18:19, (0000,0002), 22, UI, Affected SOP Class UID: 1.2.840.10008.5.1.1.4 (Basic Grayscale Image Box SOP Class) 
+15:18:19, (0000,0100),  2, US, Command Field: 33056
+15:18:19, (0000,0120),  2, US, Message ID Being Responded To: 7
+15:18:19, (0000,0800),  2, US, Data Set Type: 257
+15:18:19, (0000,0900),  2, US, Status: 0
+15:18:19, (0000,0902),  0, LO, Error Comment: 
+15:18:19, (0000,1000), 54, UI, Affected SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159206995448809.1
+15:18:19, 
+15:18:19, Set Images OK
+15:18:19, local >> PRINTSCP
+15:18:19, (0000,0000),  4, UL, Group Length: 130
+15:18:19, (0000,0003), 22, UI, Requested SOP Class UID: 1.2.840.10008.5.1.1.2 (Basic Film Box SOP Class) 
+15:18:19, (0000,0100),  2, US, Command Field: 304
+15:18:19, (0000,0110),  2, US, Message ID: 9
+15:18:19, (0000,0800),  2, US, Data Set Type: 257
+15:18:19, (0000,1001), 52, UI, Requested SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159206995448809
+15:18:19, (0000,1008),  2, US, Action Type ID: 1
+15:18:19, 
+15:18:29, local << PRINTSCP
+15:18:29, (0000,0000),  4, UL, Group Length: 138
+15:18:29, (0000,0002), 22, UI, Affected SOP Class UID: 1.2.840.10008.5.1.1.2 (Basic Film Box SOP Class) 
+15:18:29, (0000,0100),  2, US, Command Field: 33072
+15:18:29, (0000,0120),  2, US, Message ID Being Responded To: 9
+15:18:29, (0000,0800),  2, US, Data Set Type: 514
+15:18:29, (0000,0900),  2, US, Status: 0
+15:18:29, (0000,0902),  0, LO, Error Comment: 
+15:18:29, (0000,1000), 52, UI, Affected SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159206996918894
+15:18:29, 
+15:18:29, local << PRINTSCP
+15:18:29, (2100,0500), -1, SQ,  (RET): 
+15:18:29, (FFFE,E000), -1, DL, Item: 
+15:18:29, (0008,1150), 22, UI, Referenced SOP Class UID: 1.2.840.10008.5.1.1.14 (Print Job SOP Class) 
+15:18:29, (FFFE,E00D),  0, DL, Item Delimitation Item: 
+15:18:29, (FFFE,E000), -1, DL, Item: 
+15:18:29, (0008,1155), 52, UI, Referenced SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159206996918894
+15:18:29, (FFFE,E00D),  0, DL, Item Delimitation Item: 
+15:18:29, (FFFE,E0DD),  0, DL, Sequence Delimitation Item: 
+15:18:29, 
+15:18:29, FilmBox Action: OK!
+15:18:29, local >> PRINTSCP
+15:18:29, (0000,0000),  4, UL, Group Length: 120
+15:18:29, (0000,0003), 22, UI, Requested SOP Class UID: 1.2.840.10008.5.1.1.1 (Basic Film Session SOP Class) 
+15:18:29, (0000,0100),  2, US, Command Field: 336
+15:18:29, (0000,0110),  2, US, Message ID: 11
+15:18:29, (0000,0800),  2, US, Data Set Type: 257
+15:18:29, (0000,1001), 52, UI, Requested SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159206993838717
+15:18:29, 
+15:18:29, local << PRINTSCP
+15:18:29, (0000,0000),  4, UL, Group Length: 78
+15:18:29, (0000,0002), 22, UI, Affected SOP Class UID: 1.2.840.10008.5.1.1.1 (Basic Film Session SOP Class) 
+15:18:29, (0000,0100),  2, US, Command Field: 33104
+15:18:29, (0000,0120),  2, US, Message ID Being Responded To: 11
+15:18:29, (0000,0800),  2, US, Data Set Type: 257
+15:18:29, (0000,0900),  2, US, Status: 0
+15:18:29, (0000,0902),  0, LO, Error Comment: 
+15:18:29, 
+15:18:29, FilmSession Delete: OK!
+15:18:29, PRINT OK
+15:19:05, Starting PRINT Service
+15:19:06, INFO, OpenAssociation, Calling Ap. Title: local           
+15:19:06, INFO, OpenAssociation, Called Ap. Title: PRINTSCP        
+15:19:06, Connected to: 127.0.0.1:8000
+15:19:06, INFO, MaxSubLength::Size, Length=8, MaxSubLength.MaximumLength=16384
+15:19:06, INFO, ImpClass::Size, Length=34, "1.2.826.0.1.3680043.2.1396.999"
+15:19:06, INFO, ImpVersion::Size, Length=15, "CharruaSoft"
+15:19:06, INFO, UserInformation::Size, Length=57
+15:19:06, INFO, AAssociateRQ::Write, CalledApTitle: PRINTSCP        
+15:19:06, INFO, AAssociateRQ::Write, CallingApTitle: local           
+15:19:06, Item Type: 2
+15:19:06, Association Accept::ReadDynamic
+15:19:06, INFO, AAssociateAC::ReadDynamic, CalledApTitle: PRINTSCP        
+15:19:06, INFO, AAssociateAC::ReadDynamic, CallingApTitle: local           
+15:19:06, INFO, UserInformation::ReadDynamic, Count=49
+15:19:06, INFO, MaxSubLength::ReadDynamic, Count=41, MaxSubLength.MaximumLength=16384
+15:19:06, INFO, ImpClass::ReadDynamic, Count=18, "1.3.6.1.4.1.30071.8"
+15:19:06, INFO, ImpVersion::ReadDynamic, Count=0, "fo-dicom 2.0.2"
+15:19:06, INFO, UserInformation::Size, Length=49
+15:19:06, Presentation Context Accept ID: 1, Transfer Syntax: 1.2.840.10008.1.2
+15:19:06, local >> PRINTSCP
+15:19:06, (0000,0000),  4, UL, Group Length: 68
+15:19:06, (0000,0002), 22, UI, Affected SOP Class UID: 1.2.840.10008.5.1.1.1 (Basic Film Session SOP Class) 
+15:19:06, (0000,0100),  2, US, Command Field: 320
+15:19:06, (0000,0110),  2, US, Message ID: 3
+15:19:06, (0000,0800),  2, US, Data Set Type: 258
+15:19:06, (0000,1000),  0, UI, Affected SOP Instance UID: 
+15:19:06, 
+15:19:06, local >> PRINTSCP
+15:19:06, (2000,0010),  2, IS, Number of Copies: 1 
+15:19:06, (2000,0020),  4, CS, Print Priority: MED 
+15:19:06, (2000,0030),  0, CS, Medium Type: 
+15:19:06, (2000,0040),  8, CS, Film Destination: MAGAZINE
+15:19:06, 
+15:19:06, local << PRINTSCP
+15:19:06, (0000,0000),  4, UL, Group Length: 138
+15:19:06, (0000,0002), 22, UI, Affected SOP Class UID: 1.2.840.10008.5.1.1.1 (Basic Film Session SOP Class) 
+15:19:06, (0000,0100),  2, US, Command Field: 33088
+15:19:06, (0000,0120),  2, US, Message ID Being Responded To: 3
+15:19:06, (0000,0800),  2, US, Data Set Type: 257
+15:19:06, (0000,0900),  2, US, Status: 0
+15:19:06, (0000,0902),  0, LO, Error Comment: 
+15:19:06, (0000,1000), 52, UI, Affected SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159207460415404
+15:19:06, 
+15:19:06, Create Film Session: OK!
+15:19:06, local >> PRINTSCP
+15:19:06, (0000,0000),  4, UL, Group Length: 68
+15:19:06, (0000,0002), 22, UI, Affected SOP Class UID: 1.2.840.10008.5.1.1.2 (Basic Film Box SOP Class) 
+15:19:06, (0000,0100),  2, US, Command Field: 320
+15:19:06, (0000,0110),  2, US, Message ID: 5
+15:19:06, (0000,0800),  2, US, Data Set Type: 258
+15:19:06, (0000,1000),  0, UI, Affected SOP Instance UID: 
+15:19:06, 
+15:19:06, local >> PRINTSCP
+15:19:06, (2010,0010), 12, ST, Image Display Format: STANDARD\1,1
+15:19:06, (2010,0040),  8, CS, Film Orientation: PORTRAIT
+15:19:06, (2010,0050), 10, CS, Film Size ID: 14INX17IN 
+15:19:06, (2010,0060),  6, CS, Magnification Type: CUBIC 
+15:19:06, (2010,0150),  0, ST, Configuration Information: 
+15:19:06, (2010,0500), -1, SQ, Referenced Film Session Sequence: 
+15:19:06, (FFFE,E000), -1, DL, Item: 
+15:19:06, (0008,1150), 22, UI, Referenced SOP Class UID: 1.2.840.10008.5.1.1.1 (Basic Film Session SOP Class) 
+15:19:06, (0008,1155), 52, UI, Referenced SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159207460415404
+15:19:06, (FFFE,E00D),  0, DL, Item Delimitation Item: 
+15:19:06, (FFFE,E0DD),  0, DL, Sequence Delimitation Item: 
+15:19:06, 
+15:19:06, local << PRINTSCP
+15:19:06, (0000,0000),  4, UL, Group Length: 138
+15:19:06, (0000,0002), 22, UI, Affected SOP Class UID: 1.2.840.10008.5.1.1.2 (Basic Film Box SOP Class) 
+15:19:06, (0000,0100),  2, US, Command Field: 33088
+15:19:06, (0000,0120),  2, US, Message ID Being Responded To: 5
+15:19:06, (0000,0800),  2, US, Data Set Type: 514
+15:19:06, (0000,0900),  2, US, Status: 0
+15:19:06, (0000,0902),  0, LO, Error Comment: 
+15:19:06, (0000,1000), 52, UI, Affected SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159207461165447
+15:19:06, 
+15:19:06, local << PRINTSCP
+15:19:06, (0008,0016), 22, UI, SOP Class UID: 1.2.840.10008.5.1.1.2 (Basic Film Box SOP Class) 
+15:19:06, (0008,0018), 52, UI, SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159207461165447
+15:19:06, (2010,0010), 12, ST, Image Display Format: STANDARD\1,1
+15:19:06, (2010,0040),  8, CS, Film Orientation: PORTRAIT
+15:19:06, (2010,0050), 10, CS, Film Size ID: 14INX17IN 
+15:19:06, (2010,0060),  6, CS, Magnification Type: CUBIC 
+15:19:06, (2010,0100),  6, CS, Border Density: BLACK 
+15:19:06, (2010,0110),  6, CS, Empty Image Density: BLACK 
+15:19:06, (2010,0120),  2, US, Min Density: 0
+15:19:06, (2010,0130),  2, US, Max Density: 0
+15:19:06, (2010,0140),  2, CS, Trim: NO
+15:19:06, (2010,0150),  0, ST, Configuration Information: 
+15:19:06, (2010,0500), -1, SQ, Referenced Film Session Sequence: 
+15:19:06, (FFFE,E000), -1, DL, Item: 
+15:19:06, (0008,1150), 22, UI, Referenced SOP Class UID: 1.2.840.10008.5.1.1.1 (Basic Film Session SOP Class) 
+15:19:06, (0008,1155), 52, UI, Referenced SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159207460415404
+15:19:06, (FFFE,E00D),  0, DL, Item Delimitation Item: 
+15:19:06, (FFFE,E0DD),  0, DL, Sequence Delimitation Item: 
+15:19:06, (2010,0510), -1, SQ, Referenced Image Box Sequence: 
+15:19:06, (FFFE,E000), -1, DL, Item: 
+15:19:06, (0008,1150), 22, UI, Referenced SOP Class UID: 1.2.840.10008.5.1.1.4 (Basic Grayscale Image Box SOP Class) 
+15:19:06, (0008,1155), 54, UI, Referenced SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159207461165447.1
+15:19:06, (FFFE,E00D),  0, DL, Item Delimitation Item: 
+15:19:06, (FFFE,E0DD),  0, DL, Sequence Delimitation Item: 
+15:19:06, (2020,0050),  8, CS, Requested Resolution ID: STANDARD
+15:19:06, 
+15:19:06, Create Film Box: OK!
+15:19:06, local >> PRINTSCP
+15:19:06, (0000,0000),  4, UL, Group Length: 122
+15:19:06, (0000,0003), 22, UI, Requested SOP Class UID: 1.2.840.10008.5.1.1.4 (Basic Grayscale Image Box SOP Class) 
+15:19:06, (0000,0100),  2, US, Command Field: 288
+15:19:06, (0000,0110),  2, US, Message ID: 7
+15:19:06, (0000,0800),  2, US, Data Set Type: 258
+15:19:06, (0000,1001), 54, UI, Requested SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159207461165447.1
+15:19:06, 
+15:19:06, local >> PRINTSCP
+15:19:06, (2020,0010),  2, US, Image Position: 1
+15:19:06, (2020,0020),  6, CS, Polarity: NORMAL
+15:19:06, (2020,0030),  4, DS, Requested Image Size: 500 
+15:19:06, (2020,0110), -1, SQ, Basic Grayscale Image Sequence: 
+15:19:06, (FFFE,E000), -1, DL, Item: 
+15:19:06, (0028,0002),  2, US, Samples per Pixel: 1
+15:19:06, (0028,0004), 12, CS, Photometric Interpretation: MONOCHROME2 
+15:19:06, (0028,0010),  2, US, Rows: 512
+15:19:06, (0028,0011),  2, US, Columns: 512
+15:19:06, (0028,0100),  2, US, Bits Allocated: 8
+15:19:06, (0028,0101),  2, US, Bits Stored: 8
+15:19:06, (0028,0102),  2, US, High Bit: 7
+15:19:06, (0028,0103),  2, US, Pixel Representation: 0
+15:19:06, (7FE0,0010), 262144, OW, Pixel Data: 
+15:19:06, (FFFE,E00D),  0, DL, Item Delimitation Item: 
+15:19:06, (FFFE,E0DD),  0, DL, Sequence Delimitation Item: 
+15:19:06, 
+15:19:06, local << PRINTSCP
+15:19:06, (0000,0000),  4, UL, Group Length: 140
+15:19:06, (0000,0002), 22, UI, Affected SOP Class UID: 1.2.840.10008.5.1.1.4 (Basic Grayscale Image Box SOP Class) 
+15:19:06, (0000,0100),  2, US, Command Field: 33056
+15:19:06, (0000,0120),  2, US, Message ID Being Responded To: 7
+15:19:06, (0000,0800),  2, US, Data Set Type: 257
+15:19:06, (0000,0900),  2, US, Status: 0
+15:19:06, (0000,0902),  0, LO, Error Comment: 
+15:19:06, (0000,1000), 54, UI, Affected SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159207461165447.1
+15:19:06, 
+15:19:06, Set Images OK
+15:19:06, local >> PRINTSCP
+15:19:06, (0000,0000),  4, UL, Group Length: 130
+15:19:06, (0000,0003), 22, UI, Requested SOP Class UID: 1.2.840.10008.5.1.1.2 (Basic Film Box SOP Class) 
+15:19:06, (0000,0100),  2, US, Command Field: 304
+15:19:06, (0000,0110),  2, US, Message ID: 9
+15:19:06, (0000,0800),  2, US, Data Set Type: 257
+15:19:06, (0000,1001), 52, UI, Requested SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159207461165447
+15:19:06, (0000,1008),  2, US, Action Type ID: 1
+15:19:06, 
+15:19:09, local << PRINTSCP
+15:19:09, (0000,0000),  4, UL, Group Length: 138
+15:19:09, (0000,0002), 22, UI, Affected SOP Class UID: 1.2.840.10008.5.1.1.2 (Basic Film Box SOP Class) 
+15:19:09, (0000,0100),  2, US, Command Field: 33072
+15:19:09, (0000,0120),  2, US, Message ID Being Responded To: 9
+15:19:09, (0000,0800),  2, US, Data Set Type: 514
+15:19:09, (0000,0900),  2, US, Status: 0
+15:19:09, (0000,0902),  0, LO, Error Comment: 
+15:19:09, (0000,1000), 52, UI, Affected SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159207462265510
+15:19:09, 
+15:19:09, local << PRINTSCP
+15:19:09, (2100,0500), -1, SQ,  (RET): 
+15:19:09, (FFFE,E000), -1, DL, Item: 
+15:19:09, (0008,1150), 22, UI, Referenced SOP Class UID: 1.2.840.10008.5.1.1.14 (Print Job SOP Class) 
+15:19:09, (FFFE,E00D),  0, DL, Item Delimitation Item: 
+15:19:09, (FFFE,E000), -1, DL, Item: 
+15:19:09, (0008,1155), 52, UI, Referenced SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159207462265510
+15:19:09, (FFFE,E00D),  0, DL, Item Delimitation Item: 
+15:19:09, (FFFE,E0DD),  0, DL, Sequence Delimitation Item: 
+15:19:09, 
+15:19:09, FilmBox Action: OK!
+15:19:09, local >> PRINTSCP
+15:19:09, (0000,0000),  4, UL, Group Length: 120
+15:19:09, (0000,0003), 22, UI, Requested SOP Class UID: 1.2.840.10008.5.1.1.1 (Basic Film Session SOP Class) 
+15:19:09, (0000,0100),  2, US, Command Field: 336
+15:19:09, (0000,0110),  2, US, Message ID: 11
+15:19:09, (0000,0800),  2, US, Data Set Type: 257
+15:19:09, (0000,1001), 52, UI, Requested SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159207460415404
+15:19:09, 
+15:19:09, local << PRINTSCP
+15:19:09, (0000,0000),  4, UL, Group Length: 78
+15:19:09, (0000,0002), 22, UI, Affected SOP Class UID: 1.2.840.10008.5.1.1.1 (Basic Film Session SOP Class) 
+15:19:09, (0000,0100),  2, US, Command Field: 33104
+15:19:09, (0000,0120),  2, US, Message ID Being Responded To: 11
+15:19:09, (0000,0800),  2, US, Data Set Type: 257
+15:19:09, (0000,0900),  2, US, Status: 0
+15:19:09, (0000,0902),  0, LO, Error Comment: 
+15:19:09, 
+15:19:09, FilmSession Delete: OK!
+15:19:09, PRINT OK
+15:21:32, Starting PRINT Service
+15:21:32, INFO, OpenAssociation, Calling Ap. Title: local           
+15:21:32, INFO, OpenAssociation, Called Ap. Title: PRINTSCP        
+15:21:32, Connected to: 127.0.0.1:8000
+15:21:32, INFO, MaxSubLength::Size, Length=8, MaxSubLength.MaximumLength=16384
+15:21:32, INFO, ImpClass::Size, Length=34, "1.2.826.0.1.3680043.2.1396.999"
+15:21:32, INFO, ImpVersion::Size, Length=15, "CharruaSoft"
+15:21:32, INFO, UserInformation::Size, Length=57
+15:21:32, INFO, AAssociateRQ::Write, CalledApTitle: PRINTSCP        
+15:21:32, INFO, AAssociateRQ::Write, CallingApTitle: local           
+15:21:32, Item Type: 2
+15:21:32, Association Accept::ReadDynamic
+15:21:32, INFO, AAssociateAC::ReadDynamic, CalledApTitle: PRINTSCP        
+15:21:32, INFO, AAssociateAC::ReadDynamic, CallingApTitle: local           
+15:21:32, INFO, UserInformation::ReadDynamic, Count=49
+15:21:32, INFO, MaxSubLength::ReadDynamic, Count=41, MaxSubLength.MaximumLength=16384
+15:21:32, INFO, ImpClass::ReadDynamic, Count=18, "1.3.6.1.4.1.30071.8"
+15:21:32, INFO, ImpVersion::ReadDynamic, Count=0, "fo-dicom 2.0.2"
+15:21:32, INFO, UserInformation::Size, Length=49
+15:21:32, Presentation Context Accept ID: 1, Transfer Syntax: 1.2.840.10008.1.2
+15:21:32, local >> PRINTSCP
+15:21:32, (0000,0000),  4, UL, Group Length: 68
+15:21:32, (0000,0002), 22, UI, Affected SOP Class UID: 1.2.840.10008.5.1.1.1 (Basic Film Session SOP Class) 
+15:21:32, (0000,0100),  2, US, Command Field: 320
+15:21:32, (0000,0110),  2, US, Message ID: 3
+15:21:32, (0000,0800),  2, US, Data Set Type: 258
+15:21:32, (0000,1000),  0, UI, Affected SOP Instance UID: 
+15:21:32, 
+15:21:32, local >> PRINTSCP
+15:21:32, (2000,0010),  2, IS, Number of Copies: 1 
+15:21:32, (2000,0020),  4, CS, Print Priority: MED 
+15:21:32, (2000,0030),  0, CS, Medium Type: 
+15:21:32, (2000,0040),  8, CS, Film Destination: MAGAZINE
+15:21:32, 
+15:21:32, local << PRINTSCP
+15:21:32, (0000,0000),  4, UL, Group Length: 138
+15:21:32, (0000,0002), 22, UI, Affected SOP Class UID: 1.2.840.10008.5.1.1.1 (Basic Film Session SOP Class) 
+15:21:32, (0000,0100),  2, US, Command Field: 33088
+15:21:32, (0000,0120),  2, US, Message ID Being Responded To: 3
+15:21:32, (0000,0800),  2, US, Data Set Type: 257
+15:21:32, (0000,0900),  2, US, Status: 0
+15:21:32, (0000,0902),  0, LO, Error Comment: 
+15:21:32, (0000,1000), 52, UI, Affected SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159208927679327
+15:21:32, 
+15:21:32, Create Film Session: OK!
+15:21:32, local >> PRINTSCP
+15:21:32, (0000,0000),  4, UL, Group Length: 68
+15:21:32, (0000,0002), 22, UI, Affected SOP Class UID: 1.2.840.10008.5.1.1.2 (Basic Film Box SOP Class) 
+15:21:32, (0000,0100),  2, US, Command Field: 320
+15:21:32, (0000,0110),  2, US, Message ID: 5
+15:21:32, (0000,0800),  2, US, Data Set Type: 258
+15:21:32, (0000,1000),  0, UI, Affected SOP Instance UID: 
+15:21:32, 
+15:21:32, local >> PRINTSCP
+15:21:32, (2010,0010), 12, ST, Image Display Format: STANDARD\1,1
+15:21:32, (2010,0040),  8, CS, Film Orientation: PORTRAIT
+15:21:32, (2010,0050), 10, CS, Film Size ID: 14INX17IN 
+15:21:32, (2010,0060),  6, CS, Magnification Type: CUBIC 
+15:21:32, (2010,0150),  0, ST, Configuration Information: 
+15:21:32, (2010,0500), -1, SQ, Referenced Film Session Sequence: 
+15:21:32, (FFFE,E000), -1, DL, Item: 
+15:21:32, (0008,1150), 22, UI, Referenced SOP Class UID: 1.2.840.10008.5.1.1.1 (Basic Film Session SOP Class) 
+15:21:32, (0008,1155), 52, UI, Referenced SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159208927679327
+15:21:32, (FFFE,E00D),  0, DL, Item Delimitation Item: 
+15:21:32, (FFFE,E0DD),  0, DL, Sequence Delimitation Item: 
+15:21:32, 
+15:21:32, local << PRINTSCP
+15:21:32, (0000,0000),  4, UL, Group Length: 138
+15:21:32, (0000,0002), 22, UI, Affected SOP Class UID: 1.2.840.10008.5.1.1.2 (Basic Film Box SOP Class) 
+15:21:32, (0000,0100),  2, US, Command Field: 33088
+15:21:32, (0000,0120),  2, US, Message ID Being Responded To: 5
+15:21:32, (0000,0800),  2, US, Data Set Type: 514
+15:21:32, (0000,0900),  2, US, Status: 0
+15:21:32, (0000,0902),  0, LO, Error Comment: 
+15:21:32, (0000,1000), 52, UI, Affected SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159208929099408
+15:21:32, 
+15:21:32, local << PRINTSCP
+15:21:33, (0008,0016), 22, UI, SOP Class UID: 1.2.840.10008.5.1.1.2 (Basic Film Box SOP Class) 
+15:21:33, (0008,0018), 52, UI, SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159208929099408
+15:21:33, (2010,0010), 12, ST, Image Display Format: STANDARD\1,1
+15:21:33, (2010,0040),  8, CS, Film Orientation: PORTRAIT
+15:21:33, (2010,0050), 10, CS, Film Size ID: 14INX17IN 
+15:21:33, (2010,0060),  6, CS, Magnification Type: CUBIC 
+15:21:33, (2010,0100),  6, CS, Border Density: BLACK 
+15:21:33, (2010,0110),  6, CS, Empty Image Density: BLACK 
+15:21:33, (2010,0120),  2, US, Min Density: 0
+15:21:33, (2010,0130),  2, US, Max Density: 0
+15:21:33, (2010,0140),  2, CS, Trim: NO
+15:21:33, (2010,0150),  0, ST, Configuration Information: 
+15:21:33, (2010,0500), -1, SQ, Referenced Film Session Sequence: 
+15:21:33, (FFFE,E000), -1, DL, Item: 
+15:21:33, (0008,1150), 22, UI, Referenced SOP Class UID: 1.2.840.10008.5.1.1.1 (Basic Film Session SOP Class) 
+15:21:33, (0008,1155), 52, UI, Referenced SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159208927679327
+15:21:33, (FFFE,E00D),  0, DL, Item Delimitation Item: 
+15:21:33, (FFFE,E0DD),  0, DL, Sequence Delimitation Item: 
+15:21:33, (2010,0510), -1, SQ, Referenced Image Box Sequence: 
+15:21:33, (FFFE,E000), -1, DL, Item: 
+15:21:33, (0008,1150), 22, UI, Referenced SOP Class UID: 1.2.840.10008.5.1.1.4 (Basic Grayscale Image Box SOP Class) 
+15:21:33, (0008,1155), 54, UI, Referenced SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159208929099408.1
+15:21:33, (FFFE,E00D),  0, DL, Item Delimitation Item: 
+15:21:33, (FFFE,E0DD),  0, DL, Sequence Delimitation Item: 
+15:21:33, (2020,0050),  8, CS, Requested Resolution ID: STANDARD
+15:21:33, 
+15:21:33, Create Film Box: OK!
+15:21:33, local >> PRINTSCP
+15:21:33, (0000,0000),  4, UL, Group Length: 122
+15:21:33, (0000,0003), 22, UI, Requested SOP Class UID: 1.2.840.10008.5.1.1.4 (Basic Grayscale Image Box SOP Class) 
+15:21:33, (0000,0100),  2, US, Command Field: 288
+15:21:33, (0000,0110),  2, US, Message ID: 7
+15:21:33, (0000,0800),  2, US, Data Set Type: 258
+15:21:33, (0000,1001), 54, UI, Requested SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159208929099408.1
+15:21:33, 
+15:21:33, local >> PRINTSCP
+15:21:33, (2020,0010),  2, US, Image Position: 1
+15:21:33, (2020,0020),  6, CS, Polarity: NORMAL
+15:21:33, (2020,0030),  4, DS, Requested Image Size: 500 
+15:21:33, (2020,0110), -1, SQ, Basic Grayscale Image Sequence: 
+15:21:33, (FFFE,E000), -1, DL, Item: 
+15:21:33, (0028,0002),  2, US, Samples per Pixel: 1
+15:21:33, (0028,0004), 12, CS, Photometric Interpretation: MONOCHROME2 
+15:21:33, (0028,0010),  2, US, Rows: 512
+15:21:33, (0028,0011),  2, US, Columns: 512
+15:21:33, (0028,0100),  2, US, Bits Allocated: 8
+15:21:33, (0028,0101),  2, US, Bits Stored: 8
+15:21:33, (0028,0102),  2, US, High Bit: 7
+15:21:33, (0028,0103),  2, US, Pixel Representation: 0
+15:21:33, (7FE0,0010), 262144, OW, Pixel Data: 
+15:21:33, (FFFE,E00D),  0, DL, Item Delimitation Item: 
+15:21:33, (FFFE,E0DD),  0, DL, Sequence Delimitation Item: 
+15:21:33, 
+15:21:33, local << PRINTSCP
+15:21:33, (0000,0000),  4, UL, Group Length: 140
+15:21:33, (0000,0002), 22, UI, Affected SOP Class UID: 1.2.840.10008.5.1.1.4 (Basic Grayscale Image Box SOP Class) 
+15:21:33, (0000,0100),  2, US, Command Field: 33056
+15:21:33, (0000,0120),  2, US, Message ID Being Responded To: 7
+15:21:33, (0000,0800),  2, US, Data Set Type: 257
+15:21:33, (0000,0900),  2, US, Status: 0
+15:21:33, (0000,0902),  0, LO, Error Comment: 
+15:21:33, (0000,1000), 54, UI, Affected SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159208929099408.1
+15:21:33, 
+15:21:33, Set Images OK
+15:21:33, local >> PRINTSCP
+15:21:33, (0000,0000),  4, UL, Group Length: 130
+15:21:33, (0000,0003), 22, UI, Requested SOP Class UID: 1.2.840.10008.5.1.1.2 (Basic Film Box SOP Class) 
+15:21:33, (0000,0100),  2, US, Command Field: 304
+15:21:33, (0000,0110),  2, US, Message ID: 9
+15:21:33, (0000,0800),  2, US, Data Set Type: 257
+15:21:33, (0000,1001), 52, UI, Requested SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159208929099408
+15:21:33, (0000,1008),  2, US, Action Type ID: 1
+15:21:33, 
+15:21:34, local << PRINTSCP
+15:21:34, (0000,0000),  4, UL, Group Length: 138
+15:21:34, (0000,0002), 22, UI, Affected SOP Class UID: 1.2.840.10008.5.1.1.2 (Basic Film Box SOP Class) 
+15:21:34, (0000,0100),  2, US, Command Field: 33072
+15:21:34, (0000,0120),  2, US, Message ID Being Responded To: 9
+15:21:34, (0000,0800),  2, US, Data Set Type: 514
+15:21:34, (0000,0900),  2, US, Status: 0
+15:21:34, (0000,0902),  0, LO, Error Comment: 
+15:21:34, (0000,1000), 52, UI, Affected SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159208930579493
+15:21:34, 
+15:21:34, local << PRINTSCP
+15:21:34, (2100,0500), -1, SQ,  (RET): 
+15:21:34, (FFFE,E000), -1, DL, Item: 
+15:21:34, (0008,1150), 22, UI, Referenced SOP Class UID: 1.2.840.10008.5.1.1.14 (Print Job SOP Class) 
+15:21:34, (FFFE,E00D),  0, DL, Item Delimitation Item: 
+15:21:34, (FFFE,E000), -1, DL, Item: 
+15:21:34, (0008,1155), 52, UI, Referenced SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159208930579493
+15:21:34, (FFFE,E00D),  0, DL, Item Delimitation Item: 
+15:21:34, (FFFE,E0DD),  0, DL, Sequence Delimitation Item: 
+15:21:34, 
+15:21:34, FilmBox Action: OK!
+15:21:34, local >> PRINTSCP
+15:21:34, (0000,0000),  4, UL, Group Length: 120
+15:21:34, (0000,0003), 22, UI, Requested SOP Class UID: 1.2.840.10008.5.1.1.1 (Basic Film Session SOP Class) 
+15:21:34, (0000,0100),  2, US, Command Field: 336
+15:21:34, (0000,0110),  2, US, Message ID: 11
+15:21:34, (0000,0800),  2, US, Data Set Type: 257
+15:21:34, (0000,1001), 52, UI, Requested SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159208927679327
+15:21:34, 
+15:21:34, local << PRINTSCP
+15:21:34, (0000,0000),  4, UL, Group Length: 78
+15:21:34, (0000,0002), 22, UI, Affected SOP Class UID: 1.2.840.10008.5.1.1.1 (Basic Film Session SOP Class) 
+15:21:34, (0000,0100),  2, US, Command Field: 33104
+15:21:34, (0000,0120),  2, US, Message ID Being Responded To: 11
+15:21:34, (0000,0800),  2, US, Data Set Type: 257
+15:21:34, (0000,0900),  2, US, Status: 0
+15:21:34, (0000,0902),  0, LO, Error Comment: 
+15:21:34, 
+15:21:34, FilmSession Delete: OK!
+15:21:34, PRINT OK
+15:29:03, Starting PRINT Service
+15:29:03, INFO, OpenAssociation, Calling Ap. Title: local           
+15:29:03, INFO, OpenAssociation, Called Ap. Title: PRINTSCP        
+15:29:03, Connected to: 127.0.0.1:8000
+15:29:03, INFO, MaxSubLength::Size, Length=8, MaxSubLength.MaximumLength=16384
+15:29:03, INFO, ImpClass::Size, Length=34, "1.2.826.0.1.3680043.2.1396.999"
+15:29:03, INFO, ImpVersion::Size, Length=15, "CharruaSoft"
+15:29:03, INFO, UserInformation::Size, Length=57
+15:29:03, INFO, AAssociateRQ::Write, CalledApTitle: PRINTSCP        
+15:29:03, INFO, AAssociateRQ::Write, CallingApTitle: local           
+15:29:03, Item Type: 2
+15:29:03, Association Accept::ReadDynamic
+15:29:03, INFO, AAssociateAC::ReadDynamic, CalledApTitle: PRINTSCP        
+15:29:03, INFO, AAssociateAC::ReadDynamic, CallingApTitle: local           
+15:29:03, INFO, UserInformation::ReadDynamic, Count=49
+15:29:03, INFO, MaxSubLength::ReadDynamic, Count=41, MaxSubLength.MaximumLength=16384
+15:29:03, INFO, ImpClass::ReadDynamic, Count=18, "1.3.6.1.4.1.30071.8"
+15:29:03, INFO, ImpVersion::ReadDynamic, Count=0, "fo-dicom 2.0.2"
+15:29:03, INFO, UserInformation::Size, Length=49
+15:29:03, Presentation Context Accept ID: 1, Transfer Syntax: 1.2.840.10008.1.2
+15:29:03, local >> PRINTSCP
+15:29:03, (0000,0000),  4, UL, Group Length: 68
+15:29:03, (0000,0002), 22, UI, Affected SOP Class UID: 1.2.840.10008.5.1.1.1 (Basic Film Session SOP Class) 
+15:29:03, (0000,0100),  2, US, Command Field: 320
+15:29:03, (0000,0110),  2, US, Message ID: 3
+15:29:03, (0000,0800),  2, US, Data Set Type: 258
+15:29:03, (0000,1000),  0, UI, Affected SOP Instance UID: 
+15:29:03, 
+15:29:03, local >> PRINTSCP
+15:29:03, (2000,0010),  2, IS, Number of Copies: 1 
+15:29:03, (2000,0020),  4, CS, Print Priority: MED 
+15:29:03, (2000,0030),  0, CS, Medium Type: 
+15:29:03, (2000,0040),  8, CS, Film Destination: MAGAZINE
+15:29:03, 
+15:29:04, local << PRINTSCP
+15:29:04, (0000,0000),  4, UL, Group Length: 138
+15:29:04, (0000,0002), 22, UI, Affected SOP Class UID: 1.2.840.10008.5.1.1.1 (Basic Film Session SOP Class) 
+15:29:04, (0000,0100),  2, US, Command Field: 33088
+15:29:04, (0000,0120),  2, US, Message ID Being Responded To: 3
+15:29:04, (0000,0800),  2, US, Data Set Type: 257
+15:29:04, (0000,0900),  2, US, Status: 0
+15:29:04, (0000,0902),  0, LO, Error Comment: 
+15:29:04, (0000,1000), 52, UI, Affected SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159213440007417
+15:29:04, 
+15:29:04, Create Film Session: OK!
+15:29:04, local >> PRINTSCP
+15:29:04, (0000,0000),  4, UL, Group Length: 68
+15:29:04, (0000,0002), 22, UI, Affected SOP Class UID: 1.2.840.10008.5.1.1.2 (Basic Film Box SOP Class) 
+15:29:04, (0000,0100),  2, US, Command Field: 320
+15:29:04, (0000,0110),  2, US, Message ID: 5
+15:29:04, (0000,0800),  2, US, Data Set Type: 258
+15:29:04, (0000,1000),  0, UI, Affected SOP Instance UID: 
+15:29:04, 
+15:29:04, local >> PRINTSCP
+15:29:04, (2010,0010), 12, ST, Image Display Format: STANDARD\1,1
+15:29:04, (2010,0040),  8, CS, Film Orientation: PORTRAIT
+15:29:04, (2010,0050), 10, CS, Film Size ID: 14INX17IN 
+15:29:04, (2010,0060),  6, CS, Magnification Type: CUBIC 
+15:29:04, (2010,0150),  0, ST, Configuration Information: 
+15:29:04, (2010,0500), -1, SQ, Referenced Film Session Sequence: 
+15:29:04, (FFFE,E000), -1, DL, Item: 
+15:29:04, (0008,1150), 22, UI, Referenced SOP Class UID: 1.2.840.10008.5.1.1.1 (Basic Film Session SOP Class) 
+15:29:04, (0008,1155), 52, UI, Referenced SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159213440007417
+15:29:04, (FFFE,E00D),  0, DL, Item Delimitation Item: 
+15:29:04, (FFFE,E0DD),  0, DL, Sequence Delimitation Item: 
+15:29:04, 
+15:29:04, local << PRINTSCP
+15:29:04, (0000,0000),  4, UL, Group Length: 138
+15:29:04, (0000,0002), 22, UI, Affected SOP Class UID: 1.2.840.10008.5.1.1.2 (Basic Film Box SOP Class) 
+15:29:04, (0000,0100),  2, US, Command Field: 33088
+15:29:04, (0000,0120),  2, US, Message ID Being Responded To: 5
+15:29:04, (0000,0800),  2, US, Data Set Type: 514
+15:29:04, (0000,0900),  2, US, Status: 0
+15:29:04, (0000,0902),  0, LO, Error Comment: 
+15:29:04, (0000,1000), 52, UI, Affected SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159213442347551
+15:29:04, 
+15:29:04, local << PRINTSCP
+15:29:04, (0008,0016), 22, UI, SOP Class UID: 1.2.840.10008.5.1.1.2 (Basic Film Box SOP Class) 
+15:29:04, (0008,0018), 52, UI, SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159213442347551
+15:29:04, (2010,0010), 12, ST, Image Display Format: STANDARD\1,1
+15:29:04, (2010,0040),  8, CS, Film Orientation: PORTRAIT
+15:29:04, (2010,0050), 10, CS, Film Size ID: 14INX17IN 
+15:29:04, (2010,0060),  6, CS, Magnification Type: CUBIC 
+15:29:04, (2010,0100),  6, CS, Border Density: BLACK 
+15:29:04, (2010,0110),  6, CS, Empty Image Density: BLACK 
+15:29:04, (2010,0120),  2, US, Min Density: 0
+15:29:04, (2010,0130),  2, US, Max Density: 0
+15:29:04, (2010,0140),  2, CS, Trim: NO
+15:29:04, (2010,0150),  0, ST, Configuration Information: 
+15:29:04, (2010,0500), -1, SQ, Referenced Film Session Sequence: 
+15:29:04, (FFFE,E000), -1, DL, Item: 
+15:29:04, (0008,1150), 22, UI, Referenced SOP Class UID: 1.2.840.10008.5.1.1.1 (Basic Film Session SOP Class) 
+15:29:04, (0008,1155), 52, UI, Referenced SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159213440007417
+15:29:04, (FFFE,E00D),  0, DL, Item Delimitation Item: 
+15:29:04, (FFFE,E0DD),  0, DL, Sequence Delimitation Item: 
+15:29:04, (2010,0510), -1, SQ, Referenced Image Box Sequence: 
+15:29:04, (FFFE,E000), -1, DL, Item: 
+15:29:04, (0008,1150), 22, UI, Referenced SOP Class UID: 1.2.840.10008.5.1.1.4 (Basic Grayscale Image Box SOP Class) 
+15:29:04, (0008,1155), 54, UI, Referenced SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159213442347551.1
+15:29:04, (FFFE,E00D),  0, DL, Item Delimitation Item: 
+15:29:04, (FFFE,E0DD),  0, DL, Sequence Delimitation Item: 
+15:29:04, (2020,0050),  8, CS, Requested Resolution ID: STANDARD
+15:29:04, 
+15:29:04, Create Film Box: OK!
+15:29:04, local >> PRINTSCP
+15:29:04, (0000,0000),  4, UL, Group Length: 122
+15:29:04, (0000,0003), 22, UI, Requested SOP Class UID: 1.2.840.10008.5.1.1.4 (Basic Grayscale Image Box SOP Class) 
+15:29:04, (0000,0100),  2, US, Command Field: 288
+15:29:04, (0000,0110),  2, US, Message ID: 7
+15:29:04, (0000,0800),  2, US, Data Set Type: 258
+15:29:04, (0000,1001), 54, UI, Requested SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159213442347551.1
+15:29:04, 
+15:29:04, local >> PRINTSCP
+15:29:04, (2020,0010),  2, US, Image Position: 1
+15:29:04, (2020,0020),  6, CS, Polarity: NORMAL
+15:29:04, (2020,0030),  4, DS, Requested Image Size: 500 
+15:29:04, (2020,0110), -1, SQ, Basic Grayscale Image Sequence: 
+15:29:04, (FFFE,E000), -1, DL, Item: 
+15:29:04, (0028,0002),  2, US, Samples per Pixel: 1
+15:29:04, (0028,0004), 12, CS, Photometric Interpretation: MONOCHROME2 
+15:29:04, (0028,0010),  2, US, Rows: 512
+15:29:04, (0028,0011),  2, US, Columns: 512
+15:29:04, (0028,0100),  2, US, Bits Allocated: 8
+15:29:04, (0028,0101),  2, US, Bits Stored: 8
+15:29:04, (0028,0102),  2, US, High Bit: 7
+15:29:04, (0028,0103),  2, US, Pixel Representation: 0
+15:29:04, (7FE0,0010), 262144, OW, Pixel Data: 
+15:29:04, (FFFE,E00D),  0, DL, Item Delimitation Item: 
+15:29:04, (FFFE,E0DD),  0, DL, Sequence Delimitation Item: 
+15:29:04, 
+15:29:04, local << PRINTSCP
+15:29:04, (0000,0000),  4, UL, Group Length: 140
+15:29:04, (0000,0002), 22, UI, Affected SOP Class UID: 1.2.840.10008.5.1.1.4 (Basic Grayscale Image Box SOP Class) 
+15:29:04, (0000,0100),  2, US, Command Field: 33056
+15:29:04, (0000,0120),  2, US, Message ID Being Responded To: 7
+15:29:04, (0000,0800),  2, US, Data Set Type: 257
+15:29:04, (0000,0900),  2, US, Status: 0
+15:29:04, (0000,0902),  0, LO, Error Comment: 
+15:29:04, (0000,1000), 54, UI, Affected SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159213442347551.1
+15:29:04, 
+15:29:04, Set Images OK
+15:29:04, local >> PRINTSCP
+15:29:04, (0000,0000),  4, UL, Group Length: 130
+15:29:04, (0000,0003), 22, UI, Requested SOP Class UID: 1.2.840.10008.5.1.1.2 (Basic Film Box SOP Class) 
+15:29:04, (0000,0100),  2, US, Command Field: 304
+15:29:04, (0000,0110),  2, US, Message ID: 9
+15:29:04, (0000,0800),  2, US, Data Set Type: 257
+15:29:04, (0000,1001), 52, UI, Requested SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159213442347551
+15:29:04, (0000,1008),  2, US, Action Type ID: 1
+15:29:04, 
+15:29:07, local << PRINTSCP
+15:29:07, (0000,0000),  4, UL, Group Length: 138
+15:29:07, (0000,0002), 22, UI, Affected SOP Class UID: 1.2.840.10008.5.1.1.2 (Basic Film Box SOP Class) 
+15:29:07, (0000,0100),  2, US, Command Field: 33072
+15:29:07, (0000,0120),  2, US, Message ID Being Responded To: 9
+15:29:07, (0000,0800),  2, US, Data Set Type: 514
+15:29:07, (0000,0900),  2, US, Status: 0
+15:29:07, (0000,0902),  0, LO, Error Comment: 
+15:29:07, (0000,1000), 52, UI, Affected SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159213443927641
+15:29:07, 
+15:29:07, local << PRINTSCP
+15:29:07, (2100,0500), -1, SQ,  (RET): 
+15:29:07, (FFFE,E000), -1, DL, Item: 
+15:29:07, (0008,1150), 22, UI, Referenced SOP Class UID: 1.2.840.10008.5.1.1.14 (Print Job SOP Class) 
+15:29:07, (FFFE,E00D),  0, DL, Item Delimitation Item: 
+15:29:07, (FFFE,E000), -1, DL, Item: 
+15:29:07, (0008,1155), 52, UI, Referenced SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159213443927641
+15:29:07, (FFFE,E00D),  0, DL, Item Delimitation Item: 
+15:29:07, (FFFE,E0DD),  0, DL, Sequence Delimitation Item: 
+15:29:07, 
+15:29:07, FilmBox Action: OK!
+15:29:07, local >> PRINTSCP
+15:29:07, (0000,0000),  4, UL, Group Length: 120
+15:29:07, (0000,0003), 22, UI, Requested SOP Class UID: 1.2.840.10008.5.1.1.1 (Basic Film Session SOP Class) 
+15:29:07, (0000,0100),  2, US, Command Field: 336
+15:29:07, (0000,0110),  2, US, Message ID: 11
+15:29:07, (0000,0800),  2, US, Data Set Type: 257
+15:29:07, (0000,1001), 52, UI, Requested SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159213440007417
+15:29:07, 
+15:29:07, local << PRINTSCP
+15:29:07, (0000,0000),  4, UL, Group Length: 78
+15:29:07, (0000,0002), 22, UI, Affected SOP Class UID: 1.2.840.10008.5.1.1.1 (Basic Film Session SOP Class) 
+15:29:07, (0000,0100),  2, US, Command Field: 33104
+15:29:07, (0000,0120),  2, US, Message ID Being Responded To: 11
+15:29:07, (0000,0800),  2, US, Data Set Type: 257
+15:29:07, (0000,0900),  2, US, Status: 0
+15:29:07, (0000,0902),  0, LO, Error Comment: 
+15:29:07, 
+15:29:07, FilmSession Delete: OK!
+15:29:07, PRINT OK
+17:39:06, Starting PRINT Service
+17:39:06, INFO, OpenAssociation, Calling Ap. Title: local           
+17:39:06, INFO, OpenAssociation, Called Ap. Title: PRINTSCP        
+17:39:06, Connected to: 127.0.0.1:8000
+17:39:06, INFO, MaxSubLength::Size, Length=8, MaxSubLength.MaximumLength=16384
+17:39:06, INFO, ImpClass::Size, Length=34, "1.2.826.0.1.3680043.2.1396.999"
+17:39:06, INFO, ImpVersion::Size, Length=15, "CharruaSoft"
+17:39:06, INFO, UserInformation::Size, Length=57
+17:39:06, INFO, AAssociateRQ::Write, CalledApTitle: PRINTSCP        
+17:39:06, INFO, AAssociateRQ::Write, CallingApTitle: local           
+17:39:06, Item Type: 2
+17:39:06, Association Accept::ReadDynamic
+17:39:06, INFO, AAssociateAC::ReadDynamic, CalledApTitle: PRINTSCP        
+17:39:06, INFO, AAssociateAC::ReadDynamic, CallingApTitle: local           
+17:39:06, INFO, UserInformation::ReadDynamic, Count=49
+17:39:06, INFO, MaxSubLength::ReadDynamic, Count=41, MaxSubLength.MaximumLength=16384
+17:39:06, INFO, ImpClass::ReadDynamic, Count=18, "1.3.6.1.4.1.30071.8"
+17:39:06, INFO, ImpVersion::ReadDynamic, Count=0, "fo-dicom 2.0.2"
+17:39:06, INFO, UserInformation::Size, Length=49
+17:39:06, Presentation Context Accept ID: 1, Transfer Syntax: 1.2.840.10008.1.2
+17:39:06, local >> PRINTSCP
+17:39:06, (0000,0000),  4, UL, Group Length: 68
+17:39:06, (0000,0002), 22, UI, Affected SOP Class UID: 1.2.840.10008.5.1.1.1 (Basic Film Session SOP Class) 
+17:39:06, (0000,0100),  2, US, Command Field: 320
+17:39:06, (0000,0110),  2, US, Message ID: 3
+17:39:06, (0000,0800),  2, US, Data Set Type: 258
+17:39:06, (0000,1000),  0, UI, Affected SOP Instance UID: 
+17:39:06, 
+17:39:06, local >> PRINTSCP
+17:39:06, (2000,0010),  2, IS, Number of Copies: 1 
+17:39:06, (2000,0020),  4, CS, Print Priority: MED 
+17:39:06, (2000,0030),  0, CS, Medium Type: 
+17:39:06, (2000,0040),  8, CS, Film Destination: MAGAZINE
+17:39:06, 
+17:39:06, local << PRINTSCP
+17:39:06, (0000,0000),  4, UL, Group Length: 138
+17:39:06, (0000,0002), 22, UI, Affected SOP Class UID: 1.2.840.10008.5.1.1.1 (Basic Film Session SOP Class) 
+17:39:06, (0000,0100),  2, US, Command Field: 33088
+17:39:06, (0000,0120),  2, US, Message ID Being Responded To: 3
+17:39:06, (0000,0800),  2, US, Data Set Type: 257
+17:39:06, (0000,0900),  2, US, Status: 0
+17:39:06, (0000,0902),  0, LO, Error Comment: 
+17:39:06, (0000,1000), 52, UI, Affected SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159291468690402
+17:39:06, 
+17:39:07, Create Film Session: OK!
+17:39:07, local >> PRINTSCP
+17:39:07, (0000,0000),  4, UL, Group Length: 68
+17:39:07, (0000,0002), 22, UI, Affected SOP Class UID: 1.2.840.10008.5.1.1.2 (Basic Film Box SOP Class) 
+17:39:07, (0000,0100),  2, US, Command Field: 320
+17:39:07, (0000,0110),  2, US, Message ID: 5
+17:39:07, (0000,0800),  2, US, Data Set Type: 258
+17:39:07, (0000,1000),  0, UI, Affected SOP Instance UID: 
+17:39:07, 
+17:39:07, local >> PRINTSCP
+17:39:07, (2010,0010), 12, ST, Image Display Format: STANDARD\1,1
+17:39:07, (2010,0040),  8, CS, Film Orientation: PORTRAIT
+17:39:07, (2010,0050), 10, CS, Film Size ID: 14INX17IN 
+17:39:07, (2010,0060),  6, CS, Magnification Type: CUBIC 
+17:39:07, (2010,0150),  0, ST, Configuration Information: 
+17:39:07, (2010,0500), -1, SQ, Referenced Film Session Sequence: 
+17:39:07, (FFFE,E000), -1, DL, Item: 
+17:39:07, (0008,1150), 22, UI, Referenced SOP Class UID: 1.2.840.10008.5.1.1.1 (Basic Film Session SOP Class) 
+17:39:07, (0008,1155), 52, UI, Referenced SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159291468690402
+17:39:07, (FFFE,E00D),  0, DL, Item Delimitation Item: 
+17:39:07, (FFFE,E0DD),  0, DL, Sequence Delimitation Item: 
+17:39:07, 
+17:39:07, local << PRINTSCP
+17:39:07, (0000,0000),  4, UL, Group Length: 138
+17:39:07, (0000,0002), 22, UI, Affected SOP Class UID: 1.2.840.10008.5.1.1.2 (Basic Film Box SOP Class) 
+17:39:07, (0000,0100),  2, US, Command Field: 33088
+17:39:07, (0000,0120),  2, US, Message ID Being Responded To: 5
+17:39:07, (0000,0800),  2, US, Data Set Type: 514
+17:39:07, (0000,0900),  2, US, Status: 0
+17:39:07, (0000,0902),  0, LO, Error Comment: 
+17:39:07, (0000,1000), 52, UI, Affected SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159291470190488
+17:39:07, 
+17:39:07, local << PRINTSCP
+17:39:07, (0008,0016), 22, UI, SOP Class UID: 1.2.840.10008.5.1.1.2 (Basic Film Box SOP Class) 
+17:39:07, (0008,0018), 52, UI, SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159291470190488
+17:39:07, (2010,0010), 12, ST, Image Display Format: STANDARD\1,1
+17:39:07, (2010,0040),  8, CS, Film Orientation: PORTRAIT
+17:39:07, (2010,0050), 10, CS, Film Size ID: 14INX17IN 
+17:39:07, (2010,0060),  6, CS, Magnification Type: CUBIC 
+17:39:07, (2010,0100),  6, CS, Border Density: BLACK 
+17:39:07, (2010,0110),  6, CS, Empty Image Density: BLACK 
+17:39:07, (2010,0120),  2, US, Min Density: 0
+17:39:07, (2010,0130),  2, US, Max Density: 0
+17:39:07, (2010,0140),  2, CS, Trim: NO
+17:39:07, (2010,0150),  0, ST, Configuration Information: 
+17:39:07, (2010,0500), -1, SQ, Referenced Film Session Sequence: 
+17:39:07, (FFFE,E000), -1, DL, Item: 
+17:39:07, (0008,1150), 22, UI, Referenced SOP Class UID: 1.2.840.10008.5.1.1.1 (Basic Film Session SOP Class) 
+17:39:07, (0008,1155), 52, UI, Referenced SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159291468690402
+17:39:07, (FFFE,E00D),  0, DL, Item Delimitation Item: 
+17:39:07, (FFFE,E0DD),  0, DL, Sequence Delimitation Item: 
+17:39:07, (2010,0510), -1, SQ, Referenced Image Box Sequence: 
+17:39:07, (FFFE,E000), -1, DL, Item: 
+17:39:07, (0008,1150), 22, UI, Referenced SOP Class UID: 1.2.840.10008.5.1.1.4 (Basic Grayscale Image Box SOP Class) 
+17:39:07, (0008,1155), 54, UI, Referenced SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159291470190488.1
+17:39:07, (FFFE,E00D),  0, DL, Item Delimitation Item: 
+17:39:07, (FFFE,E0DD),  0, DL, Sequence Delimitation Item: 
+17:39:07, (2020,0050),  8, CS, Requested Resolution ID: STANDARD
+17:39:07, 
+17:39:07, Create Film Box: OK!
+17:39:07, local >> PRINTSCP
+17:39:07, (0000,0000),  4, UL, Group Length: 122
+17:39:07, (0000,0003), 22, UI, Requested SOP Class UID: 1.2.840.10008.5.1.1.4 (Basic Grayscale Image Box SOP Class) 
+17:39:07, (0000,0100),  2, US, Command Field: 288
+17:39:07, (0000,0110),  2, US, Message ID: 7
+17:39:07, (0000,0800),  2, US, Data Set Type: 258
+17:39:07, (0000,1001), 54, UI, Requested SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159291470190488.1
+17:39:07, 
+17:39:07, local >> PRINTSCP
+17:39:07, (2020,0010),  2, US, Image Position: 1
+17:39:07, (2020,0020),  6, CS, Polarity: NORMAL
+17:39:07, (2020,0030),  4, DS, Requested Image Size: 500 
+17:39:07, (2020,0110), -1, SQ, Basic Grayscale Image Sequence: 
+17:39:07, (FFFE,E000), -1, DL, Item: 
+17:39:07, (0028,0002),  2, US, Samples per Pixel: 1
+17:39:07, (0028,0004), 12, CS, Photometric Interpretation: MONOCHROME2 
+17:39:07, (0028,0010),  2, US, Rows: 512
+17:39:07, (0028,0011),  2, US, Columns: 512
+17:39:07, (0028,0100),  2, US, Bits Allocated: 8
+17:39:07, (0028,0101),  2, US, Bits Stored: 8
+17:39:07, (0028,0102),  2, US, High Bit: 7
+17:39:07, (0028,0103),  2, US, Pixel Representation: 0
+17:39:07, (7FE0,0010), 262144, OW, Pixel Data: 
+17:39:07, (FFFE,E00D),  0, DL, Item Delimitation Item: 
+17:39:07, (FFFE,E0DD),  0, DL, Sequence Delimitation Item: 
+17:39:07, 
+17:39:07, local << PRINTSCP
+17:39:07, (0000,0000),  4, UL, Group Length: 140
+17:39:07, (0000,0002), 22, UI, Affected SOP Class UID: 1.2.840.10008.5.1.1.4 (Basic Grayscale Image Box SOP Class) 
+17:39:07, (0000,0100),  2, US, Command Field: 33056
+17:39:07, (0000,0120),  2, US, Message ID Being Responded To: 7
+17:39:07, (0000,0800),  2, US, Data Set Type: 257
+17:39:07, (0000,0900),  2, US, Status: 0
+17:39:07, (0000,0902),  0, LO, Error Comment: 
+17:39:07, (0000,1000), 54, UI, Affected SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159291470190488.1
+17:39:07, 
+17:39:07, Set Images OK
+17:39:07, local >> PRINTSCP
+17:39:07, (0000,0000),  4, UL, Group Length: 130
+17:39:07, (0000,0003), 22, UI, Requested SOP Class UID: 1.2.840.10008.5.1.1.2 (Basic Film Box SOP Class) 
+17:39:07, (0000,0100),  2, US, Command Field: 304
+17:39:07, (0000,0110),  2, US, Message ID: 9
+17:39:07, (0000,0800),  2, US, Data Set Type: 257
+17:39:07, (0000,1001), 52, UI, Requested SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159291470190488
+17:39:07, (0000,1008),  2, US, Action Type ID: 1
+17:39:07, 
+17:39:07, local << PRINTSCP
+17:39:07, (0000,0000),  4, UL, Group Length: 138
+17:39:07, (0000,0002), 22, UI, Affected SOP Class UID: 1.2.840.10008.5.1.1.2 (Basic Film Box SOP Class) 
+17:39:07, (0000,0100),  2, US, Command Field: 33072
+17:39:07, (0000,0120),  2, US, Message ID Being Responded To: 9
+17:39:07, (0000,0800),  2, US, Data Set Type: 514
+17:39:07, (0000,0900),  2, US, Status: 0
+17:39:07, (0000,0902),  0, LO, Error Comment: 
+17:39:07, (0000,1000), 52, UI, Affected SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159291471740577
+17:39:07, 
+17:39:07, local << PRINTSCP
+17:39:07, (2100,0500), -1, SQ,  (RET): 
+17:39:07, (FFFE,E000), -1, DL, Item: 
+17:39:07, (0008,1150), 22, UI, Referenced SOP Class UID: 1.2.840.10008.5.1.1.14 (Print Job SOP Class) 
+17:39:07, (FFFE,E00D),  0, DL, Item Delimitation Item: 
+17:39:07, (FFFE,E000), -1, DL, Item: 
+17:39:07, (0008,1155), 52, UI, Referenced SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159291471740577
+17:39:07, (FFFE,E00D),  0, DL, Item Delimitation Item: 
+17:39:07, (FFFE,E0DD),  0, DL, Sequence Delimitation Item: 
+17:39:07, 
+17:39:07, FilmBox Action: OK!
+17:39:07, local >> PRINTSCP
+17:39:07, (0000,0000),  4, UL, Group Length: 120
+17:39:07, (0000,0003), 22, UI, Requested SOP Class UID: 1.2.840.10008.5.1.1.1 (Basic Film Session SOP Class) 
+17:39:07, (0000,0100),  2, US, Command Field: 336
+17:39:07, (0000,0110),  2, US, Message ID: 11
+17:39:07, (0000,0800),  2, US, Data Set Type: 257
+17:39:07, (0000,1001), 52, UI, Requested SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159291468690402
+17:39:07, 
+17:39:07, local << PRINTSCP
+17:39:07, (0000,0000),  4, UL, Group Length: 78
+17:39:07, (0000,0002), 22, UI, Affected SOP Class UID: 1.2.840.10008.5.1.1.1 (Basic Film Session SOP Class) 
+17:39:07, (0000,0100),  2, US, Command Field: 33104
+17:39:07, (0000,0120),  2, US, Message ID Being Responded To: 11
+17:39:07, (0000,0800),  2, US, Data Set Type: 257
+17:39:07, (0000,0900),  2, US, Status: 0
+17:39:07, (0000,0902),  0, LO, Error Comment: 
+17:39:07, 
+17:39:07, FilmSession Delete: OK!
+17:39:07, PRINT OK
+18:18:09, Starting PRINT Service
+18:18:09, INFO, OpenAssociation, Calling Ap. Title: local           
+18:18:09, INFO, OpenAssociation, Called Ap. Title: PRINTSCP        
+18:18:09, Connected to: 127.0.0.1:8000
+18:18:09, INFO, MaxSubLength::Size, Length=8, MaxSubLength.MaximumLength=16384
+18:18:09, INFO, ImpClass::Size, Length=34, "1.2.826.0.1.3680043.2.1396.999"
+18:18:09, INFO, ImpVersion::Size, Length=15, "CharruaSoft"
+18:18:09, INFO, UserInformation::Size, Length=57
+18:18:09, INFO, AAssociateRQ::Write, CalledApTitle: PRINTSCP        
+18:18:09, INFO, AAssociateRQ::Write, CallingApTitle: local           
+18:18:09, Item Type: 2
+18:18:09, Association Accept::ReadDynamic
+18:18:09, INFO, AAssociateAC::ReadDynamic, CalledApTitle: PRINTSCP        
+18:18:09, INFO, AAssociateAC::ReadDynamic, CallingApTitle: local           
+18:18:09, INFO, UserInformation::ReadDynamic, Count=49
+18:18:09, INFO, MaxSubLength::ReadDynamic, Count=41, MaxSubLength.MaximumLength=16384
+18:18:09, INFO, ImpClass::ReadDynamic, Count=18, "1.3.6.1.4.1.30071.8"
+18:18:09, INFO, ImpVersion::ReadDynamic, Count=0, "fo-dicom 2.0.2"
+18:18:09, INFO, UserInformation::Size, Length=49
+18:18:09, Presentation Context Accept ID: 1, Transfer Syntax: 1.2.840.10008.1.2
+18:18:09, local >> PRINTSCP
+18:18:09, (0000,0000),  4, UL, Group Length: 68
+18:18:09, (0000,0002), 22, UI, Affected SOP Class UID: 1.2.840.10008.5.1.1.1 (Basic Film Session SOP Class) 
+18:18:09, (0000,0100),  2, US, Command Field: 320
+18:18:09, (0000,0110),  2, US, Message ID: 3
+18:18:09, (0000,0800),  2, US, Data Set Type: 258
+18:18:09, (0000,1000),  0, UI, Affected SOP Instance UID: 
+18:18:09, 
+18:18:09, local >> PRINTSCP
+18:18:09, (2000,0010),  2, IS, Number of Copies: 1 
+18:18:09, (2000,0020),  4, CS, Print Priority: MED 
+18:18:09, (2000,0030),  0, CS, Medium Type: 
+18:18:09, (2000,0040),  8, CS, Film Destination: MAGAZINE
+18:18:09, 
+18:18:10, local << PRINTSCP
+18:18:10, (0000,0000),  4, UL, Group Length: 138
+18:18:10, (0000,0002), 22, UI, Affected SOP Class UID: 1.2.840.10008.5.1.1.1 (Basic Film Session SOP Class) 
+18:18:10, (0000,0100),  2, US, Command Field: 33088
+18:18:10, (0000,0120),  2, US, Message ID Being Responded To: 3
+18:18:10, (0000,0800),  2, US, Data Set Type: 257
+18:18:10, (0000,0900),  2, US, Status: 0
+18:18:10, (0000,0902),  0, LO, Error Comment: 
+18:18:10, (0000,1000), 52, UI, Affected SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159314900140605
+18:18:10, 
+18:18:10, Create Film Session: OK!
+18:18:10, local >> PRINTSCP
+18:18:10, (0000,0000),  4, UL, Group Length: 68
+18:18:10, (0000,0002), 22, UI, Affected SOP Class UID: 1.2.840.10008.5.1.1.2 (Basic Film Box SOP Class) 
+18:18:10, (0000,0100),  2, US, Command Field: 320
+18:18:10, (0000,0110),  2, US, Message ID: 5
+18:18:10, (0000,0800),  2, US, Data Set Type: 258
+18:18:10, (0000,1000),  0, UI, Affected SOP Instance UID: 
+18:18:10, 
+18:18:10, local >> PRINTSCP
+18:18:10, (2010,0010), 12, ST, Image Display Format: STANDARD\1,1
+18:18:10, (2010,0040),  8, CS, Film Orientation: PORTRAIT
+18:18:10, (2010,0050), 10, CS, Film Size ID: 14INX17IN 
+18:18:10, (2010,0060),  6, CS, Magnification Type: CUBIC 
+18:18:10, (2010,0150),  0, ST, Configuration Information: 
+18:18:10, (2010,0500), -1, SQ, Referenced Film Session Sequence: 
+18:18:10, (FFFE,E000), -1, DL, Item: 
+18:18:10, (0008,1150), 22, UI, Referenced SOP Class UID: 1.2.840.10008.5.1.1.1 (Basic Film Session SOP Class) 
+18:18:10, (0008,1155), 52, UI, Referenced SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159314900140605
+18:18:10, (FFFE,E00D),  0, DL, Item Delimitation Item: 
+18:18:10, (FFFE,E0DD),  0, DL, Sequence Delimitation Item: 
+18:18:10, 
+18:18:10, local << PRINTSCP
+18:18:10, (0000,0000),  4, UL, Group Length: 138
+18:18:10, (0000,0002), 22, UI, Affected SOP Class UID: 1.2.840.10008.5.1.1.2 (Basic Film Box SOP Class) 
+18:18:10, (0000,0100),  2, US, Command Field: 33088
+18:18:10, (0000,0120),  2, US, Message ID Being Responded To: 5
+18:18:10, (0000,0800),  2, US, Data Set Type: 514
+18:18:10, (0000,0900),  2, US, Status: 0
+18:18:10, (0000,0902),  0, LO, Error Comment: 
+18:18:10, (0000,1000), 52, UI, Affected SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159314902650748
+18:18:10, 
+18:18:10, local << PRINTSCP
+18:18:10, (0008,0016), 22, UI, SOP Class UID: 1.2.840.10008.5.1.1.2 (Basic Film Box SOP Class) 
+18:18:10, (0008,0018), 52, UI, SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159314902650748
+18:18:10, (2010,0010), 12, ST, Image Display Format: STANDARD\1,1
+18:18:10, (2010,0040),  8, CS, Film Orientation: PORTRAIT
+18:18:10, (2010,0050), 10, CS, Film Size ID: 14INX17IN 
+18:18:10, (2010,0060),  6, CS, Magnification Type: CUBIC 
+18:18:10, (2010,0100),  6, CS, Border Density: BLACK 
+18:18:10, (2010,0110),  6, CS, Empty Image Density: BLACK 
+18:18:10, (2010,0120),  2, US, Min Density: 0
+18:18:10, (2010,0130),  2, US, Max Density: 0
+18:18:10, (2010,0140),  2, CS, Trim: NO
+18:18:10, (2010,0150),  0, ST, Configuration Information: 
+18:18:10, (2010,0500), -1, SQ, Referenced Film Session Sequence: 
+18:18:10, (FFFE,E000), -1, DL, Item: 
+18:18:10, (0008,1150), 22, UI, Referenced SOP Class UID: 1.2.840.10008.5.1.1.1 (Basic Film Session SOP Class) 
+18:18:10, (0008,1155), 52, UI, Referenced SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159314900140605
+18:18:10, (FFFE,E00D),  0, DL, Item Delimitation Item: 
+18:18:10, (FFFE,E0DD),  0, DL, Sequence Delimitation Item: 
+18:18:10, (2010,0510), -1, SQ, Referenced Image Box Sequence: 
+18:18:10, (FFFE,E000), -1, DL, Item: 
+18:18:10, (0008,1150), 22, UI, Referenced SOP Class UID: 1.2.840.10008.5.1.1.4 (Basic Grayscale Image Box SOP Class) 
+18:18:10, (0008,1155), 54, UI, Referenced SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159314902650748.1
+18:18:10, (FFFE,E00D),  0, DL, Item Delimitation Item: 
+18:18:10, (FFFE,E0DD),  0, DL, Sequence Delimitation Item: 
+18:18:10, (2020,0050),  8, CS, Requested Resolution ID: STANDARD
+18:18:10, 
+18:18:10, Create Film Box: OK!
+18:18:10, local >> PRINTSCP
+18:18:10, (0000,0000),  4, UL, Group Length: 122
+18:18:10, (0000,0003), 22, UI, Requested SOP Class UID: 1.2.840.10008.5.1.1.4 (Basic Grayscale Image Box SOP Class) 
+18:18:10, (0000,0100),  2, US, Command Field: 288
+18:18:10, (0000,0110),  2, US, Message ID: 7
+18:18:10, (0000,0800),  2, US, Data Set Type: 258
+18:18:10, (0000,1001), 54, UI, Requested SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159314902650748.1
+18:18:10, 
+18:18:10, local >> PRINTSCP
+18:18:10, (2020,0010),  2, US, Image Position: 1
+18:18:10, (2020,0020),  6, CS, Polarity: NORMAL
+18:18:10, (2020,0030),  4, DS, Requested Image Size: 500 
+18:18:10, (2020,0110), -1, SQ, Basic Grayscale Image Sequence: 
+18:18:10, (FFFE,E000), -1, DL, Item: 
+18:18:10, (0028,0002),  2, US, Samples per Pixel: 1
+18:18:10, (0028,0004), 12, CS, Photometric Interpretation: MONOCHROME2 
+18:18:10, (0028,0010),  2, US, Rows: 512
+18:18:10, (0028,0011),  2, US, Columns: 512
+18:18:10, (0028,0100),  2, US, Bits Allocated: 8
+18:18:10, (0028,0101),  2, US, Bits Stored: 8
+18:18:10, (0028,0102),  2, US, High Bit: 7
+18:18:10, (0028,0103),  2, US, Pixel Representation: 0
+18:18:10, (7FE0,0010), 262144, OW, Pixel Data: 
+18:18:10, (FFFE,E00D),  0, DL, Item Delimitation Item: 
+18:18:10, (FFFE,E0DD),  0, DL, Sequence Delimitation Item: 
+18:18:10, 
+18:18:10, local << PRINTSCP
+18:18:10, (0000,0000),  4, UL, Group Length: 140
+18:18:10, (0000,0002), 22, UI, Affected SOP Class UID: 1.2.840.10008.5.1.1.4 (Basic Grayscale Image Box SOP Class) 
+18:18:10, (0000,0100),  2, US, Command Field: 33056
+18:18:10, (0000,0120),  2, US, Message ID Being Responded To: 7
+18:18:10, (0000,0800),  2, US, Data Set Type: 257
+18:18:10, (0000,0900),  2, US, Status: 0
+18:18:10, (0000,0902),  0, LO, Error Comment: 
+18:18:10, (0000,1000), 54, UI, Affected SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159314902650748.1
+18:18:10, 
+18:18:10, Set Images OK
+18:18:10, local >> PRINTSCP
+18:18:10, (0000,0000),  4, UL, Group Length: 130
+18:18:10, (0000,0003), 22, UI, Requested SOP Class UID: 1.2.840.10008.5.1.1.2 (Basic Film Box SOP Class) 
+18:18:10, (0000,0100),  2, US, Command Field: 304
+18:18:10, (0000,0110),  2, US, Message ID: 9
+18:18:10, (0000,0800),  2, US, Data Set Type: 257
+18:18:10, (0000,1001), 52, UI, Requested SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159314902650748
+18:18:10, (0000,1008),  2, US, Action Type ID: 1
+18:18:10, 
+18:19:50, ERROR, Socket::ReadBinary, Timed out
+18:19:50, ERROR, PDU_Service::Read Protocol Error
+18:19:50, Film Box Action: Failed!
+18:19:50, local >> PRINTSCP
+18:19:50, (0000,0000),  4, UL, Group Length: 120
+18:19:50, (0000,0003), 22, UI, Requested SOP Class UID: 1.2.840.10008.5.1.1.1 (Basic Film Session SOP Class) 
+18:19:50, (0000,0100),  2, US, Command Field: 336
+18:19:50, (0000,0110),  2, US, Message ID: 11
+18:19:50, (0000,0800),  2, US, Data Set Type: 257
+18:19:50, (0000,1001), 52, UI, Requested SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159314900140605
+18:19:50, 
+18:19:50, FilmSession Delete: Failed!
+18:19:50, PRINT failed to connect to: PRINTSCP (127.0.0.1:8000)
+18:20:47, Starting PRINT Service
+18:20:47, INFO, OpenAssociation, Calling Ap. Title: local           
+18:20:47, INFO, OpenAssociation, Called Ap. Title: PRINTSCP        
+18:20:47, Connected to: 127.0.0.1:8000
+18:20:47, INFO, MaxSubLength::Size, Length=8, MaxSubLength.MaximumLength=16384
+18:20:47, INFO, ImpClass::Size, Length=34, "1.2.826.0.1.3680043.2.1396.999"
+18:20:47, INFO, ImpVersion::Size, Length=15, "CharruaSoft"
+18:20:47, INFO, UserInformation::Size, Length=57
+18:20:47, INFO, AAssociateRQ::Write, CalledApTitle: PRINTSCP        
+18:20:47, INFO, AAssociateRQ::Write, CallingApTitle: local           
+18:20:47, Item Type: 2
+18:20:47, Association Accept::ReadDynamic
+18:20:47, INFO, AAssociateAC::ReadDynamic, CalledApTitle: PRINTSCP        
+18:20:47, INFO, AAssociateAC::ReadDynamic, CallingApTitle: local           
+18:20:47, INFO, UserInformation::ReadDynamic, Count=49
+18:20:47, INFO, MaxSubLength::ReadDynamic, Count=41, MaxSubLength.MaximumLength=16384
+18:20:47, INFO, ImpClass::ReadDynamic, Count=18, "1.3.6.1.4.1.30071.8"
+18:20:47, INFO, ImpVersion::ReadDynamic, Count=0, "fo-dicom 2.0.2"
+18:20:47, INFO, UserInformation::Size, Length=49
+18:20:47, Presentation Context Accept ID: 1, Transfer Syntax: 1.2.840.10008.1.2
+18:20:47, local >> PRINTSCP
+18:20:47, (0000,0000),  4, UL, Group Length: 68
+18:20:47, (0000,0002), 22, UI, Affected SOP Class UID: 1.2.840.10008.5.1.1.1 (Basic Film Session SOP Class) 
+18:20:47, (0000,0100),  2, US, Command Field: 320
+18:20:47, (0000,0110),  2, US, Message ID: 3
+18:20:47, (0000,0800),  2, US, Data Set Type: 258
+18:20:47, (0000,1000),  0, UI, Affected SOP Instance UID: 
+18:20:47, 
+18:20:47, local >> PRINTSCP
+18:20:47, (2000,0010),  2, IS, Number of Copies: 1 
+18:20:47, (2000,0020),  4, CS, Print Priority: MED 
+18:20:47, (2000,0030),  0, CS, Medium Type: 
+18:20:47, (2000,0040),  8, CS, Film Destination: MAGAZINE
+18:20:47, 
+18:20:48, local << PRINTSCP
+18:20:48, (0000,0000),  4, UL, Group Length: 138
+18:20:48, (0000,0002), 22, UI, Affected SOP Class UID: 1.2.840.10008.5.1.1.1 (Basic Film Session SOP Class) 
+18:20:48, (0000,0100),  2, US, Command Field: 33088
+18:20:48, (0000,0120),  2, US, Message ID Being Responded To: 3
+18:20:48, (0000,0800),  2, US, Data Set Type: 257
+18:20:48, (0000,0900),  2, US, Status: 0
+18:20:48, (0000,0902),  0, LO, Error Comment: 
+18:20:48, (0000,1000), 52, UI, Affected SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159316479460937
+18:20:48, 
+18:20:48, Create Film Session: OK!
+18:20:48, local >> PRINTSCP
+18:20:48, (0000,0000),  4, UL, Group Length: 68
+18:20:48, (0000,0002), 22, UI, Affected SOP Class UID: 1.2.840.10008.5.1.1.2 (Basic Film Box SOP Class) 
+18:20:48, (0000,0100),  2, US, Command Field: 320
+18:20:48, (0000,0110),  2, US, Message ID: 5
+18:20:48, (0000,0800),  2, US, Data Set Type: 258
+18:20:48, (0000,1000),  0, UI, Affected SOP Instance UID: 
+18:20:48, 
+18:20:48, local >> PRINTSCP
+18:20:48, (2010,0010), 12, ST, Image Display Format: STANDARD\1,1
+18:20:48, (2010,0040),  8, CS, Film Orientation: PORTRAIT
+18:20:48, (2010,0050), 10, CS, Film Size ID: 14INX17IN 
+18:20:48, (2010,0060),  6, CS, Magnification Type: CUBIC 
+18:20:48, (2010,0150),  0, ST, Configuration Information: 
+18:20:48, (2010,0500), -1, SQ, Referenced Film Session Sequence: 
+18:20:48, (FFFE,E000), -1, DL, Item: 
+18:20:48, (0008,1150), 22, UI, Referenced SOP Class UID: 1.2.840.10008.5.1.1.1 (Basic Film Session SOP Class) 
+18:20:48, (0008,1155), 52, UI, Referenced SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159316479460937
+18:20:48, (FFFE,E00D),  0, DL, Item Delimitation Item: 
+18:20:48, (FFFE,E0DD),  0, DL, Sequence Delimitation Item: 
+18:20:48, 
+18:20:48, local << PRINTSCP
+18:20:48, (0000,0000),  4, UL, Group Length: 138
+18:20:48, (0000,0002), 22, UI, Affected SOP Class UID: 1.2.840.10008.5.1.1.2 (Basic Film Box SOP Class) 
+18:20:48, (0000,0100),  2, US, Command Field: 33088
+18:20:48, (0000,0120),  2, US, Message ID Being Responded To: 5
+18:20:48, (0000,0800),  2, US, Data Set Type: 514
+18:20:48, (0000,0900),  2, US, Status: 0
+18:20:48, (0000,0902),  0, LO, Error Comment: 
+18:20:48, (0000,1000), 52, UI, Affected SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159316481971080
+18:20:48, 
+18:20:48, local << PRINTSCP
+18:20:48, (0008,0016), 22, UI, SOP Class UID: 1.2.840.10008.5.1.1.2 (Basic Film Box SOP Class) 
+18:20:48, (0008,0018), 52, UI, SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159316481971080
+18:20:48, (2010,0010), 12, ST, Image Display Format: STANDARD\1,1
+18:20:48, (2010,0040),  8, CS, Film Orientation: PORTRAIT
+18:20:48, (2010,0050), 10, CS, Film Size ID: 14INX17IN 
+18:20:48, (2010,0060),  6, CS, Magnification Type: CUBIC 
+18:20:48, (2010,0100),  6, CS, Border Density: BLACK 
+18:20:48, (2010,0110),  6, CS, Empty Image Density: BLACK 
+18:20:48, (2010,0120),  2, US, Min Density: 0
+18:20:48, (2010,0130),  2, US, Max Density: 0
+18:20:48, (2010,0140),  2, CS, Trim: NO
+18:20:48, (2010,0150),  0, ST, Configuration Information: 
+18:20:48, (2010,0500), -1, SQ, Referenced Film Session Sequence: 
+18:20:48, (FFFE,E000), -1, DL, Item: 
+18:20:48, (0008,1150), 22, UI, Referenced SOP Class UID: 1.2.840.10008.5.1.1.1 (Basic Film Session SOP Class) 
+18:20:48, (0008,1155), 52, UI, Referenced SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159316479460937
+18:20:48, (FFFE,E00D),  0, DL, Item Delimitation Item: 
+18:20:48, (FFFE,E0DD),  0, DL, Sequence Delimitation Item: 
+18:20:48, (2010,0510), -1, SQ, Referenced Image Box Sequence: 
+18:20:48, (FFFE,E000), -1, DL, Item: 
+18:20:48, (0008,1150), 22, UI, Referenced SOP Class UID: 1.2.840.10008.5.1.1.4 (Basic Grayscale Image Box SOP Class) 
+18:20:48, (0008,1155), 54, UI, Referenced SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159316481971080.1
+18:20:48, (FFFE,E00D),  0, DL, Item Delimitation Item: 
+18:20:48, (FFFE,E0DD),  0, DL, Sequence Delimitation Item: 
+18:20:48, (2020,0050),  8, CS, Requested Resolution ID: STANDARD
+18:20:48, 
+18:20:48, Create Film Box: OK!
+18:20:48, local >> PRINTSCP
+18:20:48, (0000,0000),  4, UL, Group Length: 122
+18:20:48, (0000,0003), 22, UI, Requested SOP Class UID: 1.2.840.10008.5.1.1.4 (Basic Grayscale Image Box SOP Class) 
+18:20:48, (0000,0100),  2, US, Command Field: 288
+18:20:48, (0000,0110),  2, US, Message ID: 7
+18:20:48, (0000,0800),  2, US, Data Set Type: 258
+18:20:48, (0000,1001), 54, UI, Requested SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159316481971080.1
+18:20:48, 
+18:20:48, local >> PRINTSCP
+18:20:48, (2020,0010),  2, US, Image Position: 1
+18:20:48, (2020,0020),  6, CS, Polarity: NORMAL
+18:20:48, (2020,0030),  4, DS, Requested Image Size: 500 
+18:20:48, (2020,0110), -1, SQ, Basic Grayscale Image Sequence: 
+18:20:48, (FFFE,E000), -1, DL, Item: 
+18:20:48, (0028,0002),  2, US, Samples per Pixel: 1
+18:20:48, (0028,0004), 12, CS, Photometric Interpretation: MONOCHROME2 
+18:20:48, (0028,0010),  2, US, Rows: 512
+18:20:48, (0028,0011),  2, US, Columns: 512
+18:20:48, (0028,0100),  2, US, Bits Allocated: 8
+18:20:48, (0028,0101),  2, US, Bits Stored: 8
+18:20:48, (0028,0102),  2, US, High Bit: 7
+18:20:48, (0028,0103),  2, US, Pixel Representation: 0
+18:20:48, (7FE0,0010), 262144, OW, Pixel Data: 
+18:20:48, (FFFE,E00D),  0, DL, Item Delimitation Item: 
+18:20:48, (FFFE,E0DD),  0, DL, Sequence Delimitation Item: 
+18:20:48, 
+18:20:48, local << PRINTSCP
+18:20:48, (0000,0000),  4, UL, Group Length: 140
+18:20:48, (0000,0002), 22, UI, Affected SOP Class UID: 1.2.840.10008.5.1.1.4 (Basic Grayscale Image Box SOP Class) 
+18:20:48, (0000,0100),  2, US, Command Field: 33056
+18:20:48, (0000,0120),  2, US, Message ID Being Responded To: 7
+18:20:48, (0000,0800),  2, US, Data Set Type: 257
+18:20:48, (0000,0900),  2, US, Status: 0
+18:20:48, (0000,0902),  0, LO, Error Comment: 
+18:20:48, (0000,1000), 54, UI, Affected SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159316481971080.1
+18:20:48, 
+18:20:48, Set Images OK
+18:20:48, local >> PRINTSCP
+18:20:48, (0000,0000),  4, UL, Group Length: 130
+18:20:48, (0000,0003), 22, UI, Requested SOP Class UID: 1.2.840.10008.5.1.1.2 (Basic Film Box SOP Class) 
+18:20:48, (0000,0100),  2, US, Command Field: 304
+18:20:48, (0000,0110),  2, US, Message ID: 9
+18:20:48, (0000,0800),  2, US, Data Set Type: 257
+18:20:48, (0000,1001), 52, UI, Requested SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159316481971080
+18:20:48, (0000,1008),  2, US, Action Type ID: 1
+18:20:48, 
+18:22:28, ERROR, Socket::ReadBinary, Timed out
+18:22:28, ERROR, PDU_Service::Read Protocol Error
+18:22:28, Film Box Action: Failed!
+18:22:28, local >> PRINTSCP
+18:22:28, (0000,0000),  4, UL, Group Length: 120
+18:22:28, (0000,0003), 22, UI, Requested SOP Class UID: 1.2.840.10008.5.1.1.1 (Basic Film Session SOP Class) 
+18:22:28, (0000,0100),  2, US, Command Field: 336
+18:22:28, (0000,0110),  2, US, Message ID: 11
+18:22:28, (0000,0800),  2, US, Data Set Type: 257
+18:22:28, (0000,1001), 52, UI, Requested SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159316479460937
+18:22:28, 
+18:22:28, FilmSession Delete: Failed!
+18:22:28, PRINT failed to connect to: PRINTSCP (127.0.0.1:8000)
+18:28:15, Starting PRINT Service
+18:28:15, INFO, OpenAssociation, Calling Ap. Title: local           
+18:28:15, INFO, OpenAssociation, Called Ap. Title: PRINTSCP        
+18:28:15, Connected to: 127.0.0.1:8000
+18:28:15, INFO, MaxSubLength::Size, Length=8, MaxSubLength.MaximumLength=16384
+18:28:15, INFO, ImpClass::Size, Length=34, "1.2.826.0.1.3680043.2.1396.999"
+18:28:15, INFO, ImpVersion::Size, Length=15, "CharruaSoft"
+18:28:15, INFO, UserInformation::Size, Length=57
+18:28:15, INFO, AAssociateRQ::Write, CalledApTitle: PRINTSCP        
+18:28:15, INFO, AAssociateRQ::Write, CallingApTitle: local           
+18:28:15, Item Type: 2
+18:28:15, Association Accept::ReadDynamic
+18:28:15, INFO, AAssociateAC::ReadDynamic, CalledApTitle: PRINTSCP        
+18:28:15, INFO, AAssociateAC::ReadDynamic, CallingApTitle: local           
+18:28:15, INFO, UserInformation::ReadDynamic, Count=49
+18:28:15, INFO, MaxSubLength::ReadDynamic, Count=41, MaxSubLength.MaximumLength=16384
+18:28:15, INFO, ImpClass::ReadDynamic, Count=18, "1.3.6.1.4.1.30071.8"
+18:28:15, INFO, ImpVersion::ReadDynamic, Count=0, "fo-dicom 2.0.2"
+18:28:15, INFO, UserInformation::Size, Length=49
+18:28:15, Presentation Context Accept ID: 1, Transfer Syntax: 1.2.840.10008.1.2
+18:28:15, local >> PRINTSCP
+18:28:15, (0000,0000),  4, UL, Group Length: 68
+18:28:15, (0000,0002), 22, UI, Affected SOP Class UID: 1.2.840.10008.5.1.1.1 (Basic Film Session SOP Class) 
+18:28:15, (0000,0100),  2, US, Command Field: 320
+18:28:15, (0000,0110),  2, US, Message ID: 3
+18:28:15, (0000,0800),  2, US, Data Set Type: 258
+18:28:15, (0000,1000),  0, UI, Affected SOP Instance UID: 
+18:28:15, 
+18:28:15, local >> PRINTSCP
+18:28:15, (2000,0010),  2, IS, Number of Copies: 1 
+18:28:15, (2000,0020),  4, CS, Print Priority: MED 
+18:28:15, (2000,0030),  0, CS, Medium Type: 
+18:28:15, (2000,0040),  8, CS, Film Destination: MAGAZINE
+18:28:15, 
+18:28:15, local << PRINTSCP
+18:28:15, (0000,0000),  4, UL, Group Length: 138
+18:28:15, (0000,0002), 22, UI, Affected SOP Class UID: 1.2.840.10008.5.1.1.1 (Basic Film Session SOP Class) 
+18:28:15, (0000,0100),  2, US, Command Field: 33088
+18:28:15, (0000,0120),  2, US, Message ID Being Responded To: 3
+18:28:15, (0000,0800),  2, US, Data Set Type: 257
+18:28:15, (0000,0900),  2, US, Status: 0
+18:28:15, (0000,0902),  0, LO, Error Comment: 
+18:28:15, (0000,1000), 52, UI, Affected SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159320957227050
+18:28:15, 
+18:28:15, Create Film Session: OK!
+18:28:15, local >> PRINTSCP
+18:28:15, (0000,0000),  4, UL, Group Length: 68
+18:28:15, (0000,0002), 22, UI, Affected SOP Class UID: 1.2.840.10008.5.1.1.2 (Basic Film Box SOP Class) 
+18:28:15, (0000,0100),  2, US, Command Field: 320
+18:28:15, (0000,0110),  2, US, Message ID: 5
+18:28:15, (0000,0800),  2, US, Data Set Type: 258
+18:28:15, (0000,1000),  0, UI, Affected SOP Instance UID: 
+18:28:15, 
+18:28:15, local >> PRINTSCP
+18:28:15, (2010,0010), 12, ST, Image Display Format: STANDARD\1,1
+18:28:15, (2010,0040),  8, CS, Film Orientation: PORTRAIT
+18:28:15, (2010,0050), 10, CS, Film Size ID: 14INX17IN 
+18:28:15, (2010,0060),  6, CS, Magnification Type: CUBIC 
+18:28:15, (2010,0150),  0, ST, Configuration Information: 
+18:28:15, (2010,0500), -1, SQ, Referenced Film Session Sequence: 
+18:28:15, (FFFE,E000), -1, DL, Item: 
+18:28:15, (0008,1150), 22, UI, Referenced SOP Class UID: 1.2.840.10008.5.1.1.1 (Basic Film Session SOP Class) 
+18:28:15, (0008,1155), 52, UI, Referenced SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159320957227050
+18:28:15, (FFFE,E00D),  0, DL, Item Delimitation Item: 
+18:28:15, (FFFE,E0DD),  0, DL, Sequence Delimitation Item: 
+18:28:15, 
+18:28:15, local << PRINTSCP
+18:28:15, (0000,0000),  4, UL, Group Length: 138
+18:28:15, (0000,0002), 22, UI, Affected SOP Class UID: 1.2.840.10008.5.1.1.2 (Basic Film Box SOP Class) 
+18:28:16, (0000,0100),  2, US, Command Field: 33088
+18:28:16, (0000,0120),  2, US, Message ID Being Responded To: 5
+18:28:16, (0000,0800),  2, US, Data Set Type: 514
+18:28:16, (0000,0900),  2, US, Status: 0
+18:28:16, (0000,0902),  0, LO, Error Comment: 
+18:28:16, (0000,1000), 52, UI, Affected SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159320959067156
+18:28:16, 
+18:28:16, local << PRINTSCP
+18:28:16, (0008,0016), 22, UI, SOP Class UID: 1.2.840.10008.5.1.1.2 (Basic Film Box SOP Class) 
+18:28:16, (0008,0018), 52, UI, SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159320959067156
+18:28:16, (2010,0010), 12, ST, Image Display Format: STANDARD\1,1
+18:28:16, (2010,0040),  8, CS, Film Orientation: PORTRAIT
+18:28:16, (2010,0050), 10, CS, Film Size ID: 14INX17IN 
+18:28:16, (2010,0060),  6, CS, Magnification Type: CUBIC 
+18:28:16, (2010,0100),  6, CS, Border Density: BLACK 
+18:28:16, (2010,0110),  6, CS, Empty Image Density: BLACK 
+18:28:16, (2010,0120),  2, US, Min Density: 0
+18:28:16, (2010,0130),  2, US, Max Density: 0
+18:28:16, (2010,0140),  2, CS, Trim: NO
+18:28:16, (2010,0150),  0, ST, Configuration Information: 
+18:28:16, (2010,0500), -1, SQ, Referenced Film Session Sequence: 
+18:28:16, (FFFE,E000), -1, DL, Item: 
+18:28:16, (0008,1150), 22, UI, Referenced SOP Class UID: 1.2.840.10008.5.1.1.1 (Basic Film Session SOP Class) 
+18:28:16, (0008,1155), 52, UI, Referenced SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159320957227050
+18:28:16, (FFFE,E00D),  0, DL, Item Delimitation Item: 
+18:28:16, (FFFE,E0DD),  0, DL, Sequence Delimitation Item: 
+18:28:16, (2010,0510), -1, SQ, Referenced Image Box Sequence: 
+18:28:16, (FFFE,E000), -1, DL, Item: 
+18:28:16, (0008,1150), 22, UI, Referenced SOP Class UID: 1.2.840.10008.5.1.1.4 (Basic Grayscale Image Box SOP Class) 
+18:28:16, (0008,1155), 54, UI, Referenced SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159320959067156.1
+18:28:16, (FFFE,E00D),  0, DL, Item Delimitation Item: 
+18:28:16, (FFFE,E0DD),  0, DL, Sequence Delimitation Item: 
+18:28:16, (2020,0050),  8, CS, Requested Resolution ID: STANDARD
+18:28:16, 
+18:28:16, Create Film Box: OK!
+18:28:16, local >> PRINTSCP
+18:28:16, (0000,0000),  4, UL, Group Length: 122
+18:28:16, (0000,0003), 22, UI, Requested SOP Class UID: 1.2.840.10008.5.1.1.4 (Basic Grayscale Image Box SOP Class) 
+18:28:16, (0000,0100),  2, US, Command Field: 288
+18:28:16, (0000,0110),  2, US, Message ID: 7
+18:28:16, (0000,0800),  2, US, Data Set Type: 258
+18:28:16, (0000,1001), 54, UI, Requested SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159320959067156.1
+18:28:16, 
+18:28:16, local >> PRINTSCP
+18:28:16, (2020,0010),  2, US, Image Position: 1
+18:28:16, (2020,0020),  6, CS, Polarity: NORMAL
+18:28:16, (2020,0030),  4, DS, Requested Image Size: 500 
+18:28:16, (2020,0110), -1, SQ, Basic Grayscale Image Sequence: 
+18:28:16, (FFFE,E000), -1, DL, Item: 
+18:28:16, (0028,0002),  2, US, Samples per Pixel: 1
+18:28:16, (0028,0004), 12, CS, Photometric Interpretation: MONOCHROME2 
+18:28:16, (0028,0010),  2, US, Rows: 512
+18:28:16, (0028,0011),  2, US, Columns: 512
+18:28:16, (0028,0100),  2, US, Bits Allocated: 8
+18:28:16, (0028,0101),  2, US, Bits Stored: 8
+18:28:16, (0028,0102),  2, US, High Bit: 7
+18:28:16, (0028,0103),  2, US, Pixel Representation: 0
+18:28:16, (7FE0,0010), 262144, OW, Pixel Data: 
+18:28:16, (FFFE,E00D),  0, DL, Item Delimitation Item: 
+18:28:16, (FFFE,E0DD),  0, DL, Sequence Delimitation Item: 
+18:28:16, 
+18:28:16, local << PRINTSCP
+18:28:16, (0000,0000),  4, UL, Group Length: 140
+18:28:16, (0000,0002), 22, UI, Affected SOP Class UID: 1.2.840.10008.5.1.1.4 (Basic Grayscale Image Box SOP Class) 
+18:28:16, (0000,0100),  2, US, Command Field: 33056
+18:28:16, (0000,0120),  2, US, Message ID Being Responded To: 7
+18:28:16, (0000,0800),  2, US, Data Set Type: 257
+18:28:16, (0000,0900),  2, US, Status: 0
+18:28:16, (0000,0902),  0, LO, Error Comment: 
+18:28:16, (0000,1000), 54, UI, Affected SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159320959067156.1
+18:28:16, 
+18:28:16, Set Images OK
+18:28:16, local >> PRINTSCP
+18:28:16, (0000,0000),  4, UL, Group Length: 130
+18:28:16, (0000,0003), 22, UI, Requested SOP Class UID: 1.2.840.10008.5.1.1.2 (Basic Film Box SOP Class) 
+18:28:16, (0000,0100),  2, US, Command Field: 304
+18:28:16, (0000,0110),  2, US, Message ID: 9
+18:28:16, (0000,0800),  2, US, Data Set Type: 257
+18:28:16, (0000,1001), 52, UI, Requested SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159320959067156
+18:28:16, (0000,1008),  2, US, Action Type ID: 1
+18:28:16, 
+18:29:05, ERROR, PDU_Service::Read Protocol Error
+18:29:05, Film Box Action: Failed!
+18:29:05, local >> PRINTSCP
+18:29:05, (0000,0000),  4, UL, Group Length: 120
+18:29:05, (0000,0003), 22, UI, Requested SOP Class UID: 1.2.840.10008.5.1.1.1 (Basic Film Session SOP Class) 
+18:29:05, (0000,0100),  2, US, Command Field: 336
+18:29:05, (0000,0110),  2, US, Message ID: 11
+18:29:05, (0000,0800),  2, US, Data Set Type: 257
+18:29:05, (0000,1001), 52, UI, Requested SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159320957227050
+18:29:05, 
+18:29:05, FilmSession Delete: Failed!
+18:29:05, PRINT failed to connect to: PRINTSCP (127.0.0.1:8000)
+18:29:22, Starting PRINT Service
+18:29:22, INFO, OpenAssociation, Calling Ap. Title: local           
+18:29:22, INFO, OpenAssociation, Called Ap. Title: PRINTSCP        
+18:29:22, Connected to: 127.0.0.1:8000
+18:29:22, INFO, MaxSubLength::Size, Length=8, MaxSubLength.MaximumLength=16384
+18:29:22, INFO, ImpClass::Size, Length=34, "1.2.826.0.1.3680043.2.1396.999"
+18:29:22, INFO, ImpVersion::Size, Length=15, "CharruaSoft"
+18:29:22, INFO, UserInformation::Size, Length=57
+18:29:22, INFO, AAssociateRQ::Write, CalledApTitle: PRINTSCP        
+18:29:22, INFO, AAssociateRQ::Write, CallingApTitle: local           
+18:29:23, Item Type: 2
+18:29:23, Association Accept::ReadDynamic
+18:29:23, INFO, AAssociateAC::ReadDynamic, CalledApTitle: PRINTSCP        
+18:29:23, INFO, AAssociateAC::ReadDynamic, CallingApTitle: local           
+18:29:23, INFO, UserInformation::ReadDynamic, Count=49
+18:29:23, INFO, MaxSubLength::ReadDynamic, Count=41, MaxSubLength.MaximumLength=16384
+18:29:23, INFO, ImpClass::ReadDynamic, Count=18, "1.3.6.1.4.1.30071.8"
+18:29:23, INFO, ImpVersion::ReadDynamic, Count=0, "fo-dicom 2.0.2"
+18:29:23, INFO, UserInformation::Size, Length=49
+18:29:23, Presentation Context Accept ID: 1, Transfer Syntax: 1.2.840.10008.1.2
+18:29:23, local >> PRINTSCP
+18:29:23, (0000,0000),  4, UL, Group Length: 68
+18:29:23, (0000,0002), 22, UI, Affected SOP Class UID: 1.2.840.10008.5.1.1.1 (Basic Film Session SOP Class) 
+18:29:23, (0000,0100),  2, US, Command Field: 320
+18:29:23, (0000,0110),  2, US, Message ID: 3
+18:29:23, (0000,0800),  2, US, Data Set Type: 258
+18:29:23, (0000,1000),  0, UI, Affected SOP Instance UID: 
+18:29:23, 
+18:29:23, local >> PRINTSCP
+18:29:23, (2000,0010),  2, IS, Number of Copies: 1 
+18:29:23, (2000,0020),  4, CS, Print Priority: MED 
+18:29:23, (2000,0030),  0, CS, Medium Type: 
+18:29:23, (2000,0040),  8, CS, Film Destination: MAGAZINE
+18:29:23, 
+18:29:23, local << PRINTSCP
+18:29:23, (0000,0000),  4, UL, Group Length: 138
+18:29:23, (0000,0002), 22, UI, Affected SOP Class UID: 1.2.840.10008.5.1.1.1 (Basic Film Session SOP Class) 
+18:29:23, (0000,0100),  2, US, Command Field: 33088
+18:29:23, (0000,0120),  2, US, Message ID Being Responded To: 3
+18:29:23, (0000,0800),  2, US, Data Set Type: 257
+18:29:23, (0000,0900),  2, US, Status: 0
+18:29:23, (0000,0902),  0, LO, Error Comment: 
+18:29:23, (0000,1000), 52, UI, Affected SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159321632885696
+18:29:23, 
+18:29:23, Create Film Session: OK!
+18:29:23, local >> PRINTSCP
+18:29:23, (0000,0000),  4, UL, Group Length: 68
+18:29:23, (0000,0002), 22, UI, Affected SOP Class UID: 1.2.840.10008.5.1.1.2 (Basic Film Box SOP Class) 
+18:29:23, (0000,0100),  2, US, Command Field: 320
+18:29:23, (0000,0110),  2, US, Message ID: 5
+18:29:23, (0000,0800),  2, US, Data Set Type: 258
+18:29:23, (0000,1000),  0, UI, Affected SOP Instance UID: 
+18:29:23, 
+18:29:23, local >> PRINTSCP
+18:29:23, (2010,0010), 12, ST, Image Display Format: STANDARD\1,1
+18:29:23, (2010,0040),  8, CS, Film Orientation: PORTRAIT
+18:29:23, (2010,0050), 10, CS, Film Size ID: 14INX17IN 
+18:29:23, (2010,0060),  6, CS, Magnification Type: CUBIC 
+18:29:23, (2010,0150),  0, ST, Configuration Information: 
+18:29:23, (2010,0500), -1, SQ, Referenced Film Session Sequence: 
+18:29:23, (FFFE,E000), -1, DL, Item: 
+18:29:23, (0008,1150), 22, UI, Referenced SOP Class UID: 1.2.840.10008.5.1.1.1 (Basic Film Session SOP Class) 
+18:29:23, (0008,1155), 52, UI, Referenced SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159321632885696
+18:29:23, (FFFE,E00D),  0, DL, Item Delimitation Item: 
+18:29:23, (FFFE,E0DD),  0, DL, Sequence Delimitation Item: 
+18:29:23, 
+18:29:23, local << PRINTSCP
+18:29:23, (0000,0000),  4, UL, Group Length: 138
+18:29:23, (0000,0002), 22, UI, Affected SOP Class UID: 1.2.840.10008.5.1.1.2 (Basic Film Box SOP Class) 
+18:29:23, (0000,0100),  2, US, Command Field: 33088
+18:29:23, (0000,0120),  2, US, Message ID Being Responded To: 5
+18:29:23, (0000,0800),  2, US, Data Set Type: 514
+18:29:23, (0000,0900),  2, US, Status: 0
+18:29:23, (0000,0902),  0, LO, Error Comment: 
+18:29:23, (0000,1000), 52, UI, Affected SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159321634855808
+18:29:23, 
+18:29:23, local << PRINTSCP
+18:29:23, (0008,0016), 22, UI, SOP Class UID: 1.2.840.10008.5.1.1.2 (Basic Film Box SOP Class) 
+18:29:23, (0008,0018), 52, UI, SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159321634855808
+18:29:23, (2010,0010), 12, ST, Image Display Format: STANDARD\1,1
+18:29:23, (2010,0040),  8, CS, Film Orientation: PORTRAIT
+18:29:23, (2010,0050), 10, CS, Film Size ID: 14INX17IN 
+18:29:23, (2010,0060),  6, CS, Magnification Type: CUBIC 
+18:29:23, (2010,0100),  6, CS, Border Density: BLACK 
+18:29:23, (2010,0110),  6, CS, Empty Image Density: BLACK 
+18:29:23, (2010,0120),  2, US, Min Density: 0
+18:29:23, (2010,0130),  2, US, Max Density: 0
+18:29:23, (2010,0140),  2, CS, Trim: NO
+18:29:23, (2010,0150),  0, ST, Configuration Information: 
+18:29:23, (2010,0500), -1, SQ, Referenced Film Session Sequence: 
+18:29:23, (FFFE,E000), -1, DL, Item: 
+18:29:23, (0008,1150), 22, UI, Referenced SOP Class UID: 1.2.840.10008.5.1.1.1 (Basic Film Session SOP Class) 
+18:29:23, (0008,1155), 52, UI, Referenced SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159321632885696
+18:29:23, (FFFE,E00D),  0, DL, Item Delimitation Item: 
+18:29:23, (FFFE,E0DD),  0, DL, Sequence Delimitation Item: 
+18:29:23, (2010,0510), -1, SQ, Referenced Image Box Sequence: 
+18:29:23, (FFFE,E000), -1, DL, Item: 
+18:29:23, (0008,1150), 22, UI, Referenced SOP Class UID: 1.2.840.10008.5.1.1.4 (Basic Grayscale Image Box SOP Class) 
+18:29:23, (0008,1155), 54, UI, Referenced SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159321634855808.1
+18:29:23, (FFFE,E00D),  0, DL, Item Delimitation Item: 
+18:29:23, (FFFE,E0DD),  0, DL, Sequence Delimitation Item: 
+18:29:23, (2020,0050),  8, CS, Requested Resolution ID: STANDARD
+18:29:23, 
+18:29:23, Create Film Box: OK!
+18:29:23, local >> PRINTSCP
+18:29:23, (0000,0000),  4, UL, Group Length: 122
+18:29:23, (0000,0003), 22, UI, Requested SOP Class UID: 1.2.840.10008.5.1.1.4 (Basic Grayscale Image Box SOP Class) 
+18:29:23, (0000,0100),  2, US, Command Field: 288
+18:29:23, (0000,0110),  2, US, Message ID: 7
+18:29:23, (0000,0800),  2, US, Data Set Type: 258
+18:29:23, (0000,1001), 54, UI, Requested SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159321634855808.1
+18:29:23, 
+18:29:23, local >> PRINTSCP
+18:29:23, (2020,0010),  2, US, Image Position: 1
+18:29:23, (2020,0020),  6, CS, Polarity: NORMAL
+18:29:23, (2020,0030),  4, DS, Requested Image Size: 500 
+18:29:23, (2020,0110), -1, SQ, Basic Grayscale Image Sequence: 
+18:29:23, (FFFE,E000), -1, DL, Item: 
+18:29:23, (0028,0002),  2, US, Samples per Pixel: 1
+18:29:23, (0028,0004), 12, CS, Photometric Interpretation: MONOCHROME2 
+18:29:23, (0028,0010),  2, US, Rows: 512
+18:29:23, (0028,0011),  2, US, Columns: 512
+18:29:23, (0028,0100),  2, US, Bits Allocated: 8
+18:29:23, (0028,0101),  2, US, Bits Stored: 8
+18:29:23, (0028,0102),  2, US, High Bit: 7
+18:29:23, (0028,0103),  2, US, Pixel Representation: 0
+18:29:23, (7FE0,0010), 262144, OW, Pixel Data: 
+18:29:23, (FFFE,E00D),  0, DL, Item Delimitation Item: 
+18:29:23, (FFFE,E0DD),  0, DL, Sequence Delimitation Item: 
+18:29:23, 
+18:29:23, local << PRINTSCP
+18:29:23, (0000,0000),  4, UL, Group Length: 140
+18:29:23, (0000,0002), 22, UI, Affected SOP Class UID: 1.2.840.10008.5.1.1.4 (Basic Grayscale Image Box SOP Class) 
+18:29:23, (0000,0100),  2, US, Command Field: 33056
+18:29:23, (0000,0120),  2, US, Message ID Being Responded To: 7
+18:29:23, (0000,0800),  2, US, Data Set Type: 257
+18:29:23, (0000,0900),  2, US, Status: 0
+18:29:23, (0000,0902),  0, LO, Error Comment: 
+18:29:23, (0000,1000), 54, UI, Affected SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159321634855808.1
+18:29:23, 
+18:29:23, Set Images OK
+18:29:23, local >> PRINTSCP
+18:29:23, (0000,0000),  4, UL, Group Length: 130
+18:29:23, (0000,0003), 22, UI, Requested SOP Class UID: 1.2.840.10008.5.1.1.2 (Basic Film Box SOP Class) 
+18:29:23, (0000,0100),  2, US, Command Field: 304
+18:29:23, (0000,0110),  2, US, Message ID: 9
+18:29:23, (0000,0800),  2, US, Data Set Type: 257
+18:29:23, (0000,1001), 52, UI, Requested SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159321634855808
+18:29:23, (0000,1008),  2, US, Action Type ID: 1
+18:29:23, 
+18:29:40, ERROR, PDU_Service::Read Protocol Error
+18:29:40, Film Box Action: Failed!
+18:29:40, local >> PRINTSCP
+18:29:40, (0000,0000),  4, UL, Group Length: 120
+18:29:40, (0000,0003), 22, UI, Requested SOP Class UID: 1.2.840.10008.5.1.1.1 (Basic Film Session SOP Class) 
+18:29:40, (0000,0100),  2, US, Command Field: 336
+18:29:40, (0000,0110),  2, US, Message ID: 11
+18:29:40, (0000,0800),  2, US, Data Set Type: 257
+18:29:40, (0000,1001), 52, UI, Requested SOP Instance UID: 1.3.6.1.4.1.30071.8.57185446316643.5159321632885696
+18:29:40, 
+18:29:40, FilmSession Delete: Failed!
+18:29:40, PRINT failed to connect to: PRINTSCP (127.0.0.1:8000)

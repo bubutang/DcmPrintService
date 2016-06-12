@@ -1,0 +1,21 @@
+(0008,0016) UI [1.2.840.10008.5.1.1.2]                          #    22, SOPClassUID
+(0008,0018) UI [1.3.6.1.4.1.30071.8.57185446316643.51714292225) #    52, SOPInstanceUID
+(2010,0010) ST [STANDARD\1,1]                                   #    12, ImageDisplayFormat
+(2010,0040) CS [PORTRAIT]                                       #     8, FilmOrientation
+(2010,0050) CS [14INX17IN]                                      #    10, FilmSizeID
+(2010,0060) CS [CUBIC]                                          #     6, MagnificationType
+(2010,0100) CS [BLACK]                                          #     6, BorderDensity
+(2010,0110) CS [BLACK]                                          #     6, EmptyImageDensity
+(2010,0120) US 0                                                #     2, MinDensity
+(2010,0130) US 0                                                #     2, MaxDensity
+(2010,0140) CS [NO]                                             #     2, Trim
+(2010,0150) ST (no value available)                             #     0, ConfigurationInformation
+(2010,0500) SQ Referenced Film Session Sequence
+  Item:
+    > (0008,1150) UI [1.2.840.10008.5.1.1.1]                    #    22, ReferencedSOPClassUID
+    > (0008,1155) UI [1.3.6.1.4.1.30071.8.57185446316643.51714) #    52, ReferencedSOPInstanceUID
+(2010,0510) SQ Referenced Image Box Sequence
+  Item:
+    > (0008,1150) UI [1.2.840.10008.5.1.1.4]                    #    22, ReferencedSOPClassUID
+    > (0008,1155) UI [1.3.6.1.4.1.30071.8.57185446316643.51714) #    54, ReferencedSOPInstanceUID
+(2020,0050) CS [STANDARD]                                       #     8, RequestedResolutionID

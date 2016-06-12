@@ -1,0 +1,34 @@
+﻿Installing assembly 'D:\Personal Project\DICOM\Work\PrintSCPService\PrintSCPService\bin\Release\PrintSCPService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Personal Project\DICOM\Work\PrintSCPService\PrintSCPService\bin\Release\PrintSCPService.exe
+   logfile = D:\Personal Project\DICOM\Work\PrintSCPService\PrintSCPService\bin\Release\PrintSCPService.InstallLog
+Installing service PrintSCPService...
+Service PrintSCPService has been successfully installed.
+Creating EventLog source PrintSCPService in log Application...
+Committing assembly 'D:\Personal Project\DICOM\Work\PrintSCPService\PrintSCPService\bin\Release\PrintSCPService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Personal Project\DICOM\Work\PrintSCPService\PrintSCPService\bin\Release\PrintSCPService.exe
+   logfile = D:\Personal Project\DICOM\Work\PrintSCPService\PrintSCPService\bin\Release\PrintSCPService.InstallLog
+Uninstalling assembly 'D:\Personal Project\DICOM\Work\PrintSCPService\PrintSCPService\bin\Release\PrintSCPService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Personal Project\DICOM\Work\PrintSCPService\PrintSCPService\bin\Release\PrintSCPService.exe
+   logfile = D:\Personal Project\DICOM\Work\PrintSCPService\PrintSCPService\bin\Release\PrintSCPService.InstallLog
+Removing EventLog source PrintSCPService.
+Service PrintSCPService is being removed from the system...
+Service PrintSCPService was successfully removed from the system.
+Installing assembly 'D:\Personal Project\DICOM\Work\PrintSCPService\PrintSCPService\bin\Release\PrintSCPService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Personal Project\DICOM\Work\PrintSCPService\PrintSCPService\bin\Release\PrintSCPService.InstallLog
+   assemblypath = D:\Personal Project\DICOM\Work\PrintSCPService\PrintSCPService\bin\Release\PrintSCPService.exe
+Installing service PrintSCPService...
+Service PrintSCPService has been successfully installed.
+Creating EventLog source PrintSCPService in log Application...
+Committing assembly 'D:\Personal Project\DICOM\Work\PrintSCPService\PrintSCPService\bin\Release\PrintSCPService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Personal Project\DICOM\Work\PrintSCPService\PrintSCPService\bin\Release\PrintSCPService.InstallLog
+   assemblypath = D:\Personal Project\DICOM\Work\PrintSCPService\PrintSCPService\bin\Release\PrintSCPService.exe

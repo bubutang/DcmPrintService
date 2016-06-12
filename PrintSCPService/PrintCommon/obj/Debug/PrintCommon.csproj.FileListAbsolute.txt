@@ -1,0 +1,12 @@
+D:\Personal Project\DICOM\fo-dicom-2.0\fo-dicom-2.0\PrintCommon\bin\Debug\PrintCommon.dll
+D:\Personal Project\DICOM\fo-dicom-2.0\fo-dicom-2.0\PrintCommon\bin\Debug\PrintCommon.pdb
+D:\Personal Project\DICOM\fo-dicom-2.0\fo-dicom-2.0\PrintCommon\bin\Debug\SQLServerHelper.dll
+D:\Personal Project\DICOM\fo-dicom-2.0\fo-dicom-2.0\PrintCommon\bin\Debug\SQLServerHelper.pdb
+D:\Personal Project\DICOM\fo-dicom-2.0\fo-dicom-2.0\PrintCommon\obj\Debug\PrintCommon.dll
+D:\Personal Project\DICOM\fo-dicom-2.0\fo-dicom-2.0\PrintCommon\obj\Debug\PrintCommon.pdb
+D:\Personal Project\DICOM\Work\SCP\PrintSCPService\PrintCommon\bin\Debug\PrintCommon.dll
+D:\Personal Project\DICOM\Work\SCP\PrintSCPService\PrintCommon\bin\Debug\PrintCommon.pdb
+D:\Personal Project\DICOM\Work\SCP\PrintSCPService\PrintCommon\bin\Debug\SQLServerHelper.dll
+D:\Personal Project\DICOM\Work\SCP\PrintSCPService\PrintCommon\bin\Debug\SQLServerHelper.pdb
+D:\Personal Project\DICOM\Work\SCP\PrintSCPService\PrintCommon\obj\Debug\PrintCommon.dll
+D:\Personal Project\DICOM\Work\SCP\PrintSCPService\PrintCommon\obj\Debug\PrintCommon.pdb

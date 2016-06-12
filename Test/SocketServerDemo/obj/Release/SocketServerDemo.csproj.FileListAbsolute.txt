@@ -1,0 +1,6 @@
+D:\Personal Project\DICOM\fo-dicom-2.0\fo-dicom-2.0\SocketServerDemo\bin\Release\SocketServerDemo.exe.config
+D:\Personal Project\DICOM\fo-dicom-2.0\fo-dicom-2.0\SocketServerDemo\bin\Release\SocketServerDemo.exe
+D:\Personal Project\DICOM\fo-dicom-2.0\fo-dicom-2.0\SocketServerDemo\bin\Release\SocketServerDemo.pdb
+D:\Personal Project\DICOM\fo-dicom-2.0\fo-dicom-2.0\SocketServerDemo\obj\Release\SocketServerDemo.csprojResolveAssemblyReference.cache
+D:\Personal Project\DICOM\fo-dicom-2.0\fo-dicom-2.0\SocketServerDemo\obj\Release\SocketServerDemo.exe
+D:\Personal Project\DICOM\fo-dicom-2.0\fo-dicom-2.0\SocketServerDemo\obj\Release\SocketServerDemo.pdb

@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintSCPService", "PrintSCPService\PrintSCPService.csproj", "{0BDCD63C-C0BA-4289-8F5B-EFA28EDFB65C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintSCPConsole", "PrintSCPConsole\PrintSCPConsole.csproj", "{B284A11C-C20B-4A6F-9BC6-3D6FE2493835}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintCommon", "PrintCommon\PrintCommon.csproj", "{DF3B0A48-D87E-4CEC-9A2D-0733CA4EC2AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocketServerDemo", "..\Test\SocketServerDemo\SocketServerDemo.csproj", "{ED6D41ED-5A9A-4C0A-93AC-2FCDF238A014}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0BDCD63C-C0BA-4289-8F5B-EFA28EDFB65C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BDCD63C-C0BA-4289-8F5B-EFA28EDFB65C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BDCD63C-C0BA-4289-8F5B-EFA28EDFB65C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BDCD63C-C0BA-4289-8F5B-EFA28EDFB65C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B284A11C-C20B-4A6F-9BC6-3D6FE2493835}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B284A11C-C20B-4A6F-9BC6-3D6FE2493835}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B284A11C-C20B-4A6F-9BC6-3D6FE2493835}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B284A11C-C20B-4A6F-9BC6-3D6FE2493835}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF3B0A48-D87E-4CEC-9A2D-0733CA4EC2AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF3B0A48-D87E-4CEC-9A2D-0733CA4EC2AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF3B0A48-D87E-4CEC-9A2D-0733CA4EC2AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF3B0A48-D87E-4CEC-9A2D-0733CA4EC2AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED6D41ED-5A9A-4C0A-93AC-2FCDF238A014}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED6D41ED-5A9A-4C0A-93AC-2FCDF238A014}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED6D41ED-5A9A-4C0A-93AC-2FCDF238A014}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED6D41ED-5A9A-4C0A-93AC-2FCDF238A014}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

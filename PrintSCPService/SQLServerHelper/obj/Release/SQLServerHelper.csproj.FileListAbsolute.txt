@@ -1,0 +1,5 @@
+D:\Personal Project\DICOM\fo-dicom-2.0\fo-dicom-2.0\SQLServerHelper\bin\Release\SQLServerHelper.dll
+D:\Personal Project\DICOM\fo-dicom-2.0\fo-dicom-2.0\SQLServerHelper\bin\Release\SQLServerHelper.pdb
+D:\Personal Project\DICOM\fo-dicom-2.0\fo-dicom-2.0\SQLServerHelper\obj\Release\SQLServerHelper.csprojResolveAssemblyReference.cache
+D:\Personal Project\DICOM\fo-dicom-2.0\fo-dicom-2.0\SQLServerHelper\obj\Release\SQLServerHelper.dll
+D:\Personal Project\DICOM\fo-dicom-2.0\fo-dicom-2.0\SQLServerHelper\obj\Release\SQLServerHelper.pdb
